@@ -214,6 +214,94 @@
         "name": "assets\\Green Character 3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Red Character 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red Character 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Special Character 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Special Character 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red Character 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Character 8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Red Team/c4b97bededfa3b6e225f150570d5af5f1e51ead12e8192fa32af9553764d2a95_Red Character 8.png",
+          "name": "Red Character 8.png"
+        }
+      },
+      {
+        "file": "assets/Blue Character 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Character 6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Blue Team/04f4170def81a9781d8ed01e0ef81eda55686388deef24edf1681f631a712ecf_Blue Character 6.png",
+          "name": "Blue Character 6.png"
+        }
+      },
+      {
+        "file": "assets/White Character 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Character 7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/White Team/414918f29056e1e63248a348cadad4c26479ce111087fd6f4c4211a0ca240344_White Character 7.png",
+          "name": "White Character 7.png"
+        }
+      },
+      {
+        "file": "assets/White Character 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Character 10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/White Team/6525d39708cae44e17bbda5b45fa2474b5ceef42ba9dc380af27765a28361edc_White Character 10.png",
+          "name": "White Character 10.png"
+        }
+      },
+      {
+        "file": "assets/White Character 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\White Character 10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blue Character 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blue Character 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Red Character 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red Character 8.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -398,6 +486,246 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "524defb9621877be28e5d42fa881a4ef56635da241ad263e70bf7e21b117f46d",
+      "name": "Red_Character_8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red Character 8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "63fa1902d24e855c1b3c763efc83c5870b735c1ef90d1313f3baf57151c2443d",
+      "name": "Blue_Character_6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blue Character 6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5a8cbd48aab9ce1fce466c76498b634b88f2b0a3ac4182c7b3b78ef4375aa633",
+      "name": "White_Character_7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "White Character 7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "bee9835e04ffc4731331f358fe8afb9c961358ce75ebec99ff87ade4417624aa",
+      "name": "White_Character_10",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "White Character 10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -411,6 +739,18 @@
       },
       {
         "objectName": "Special_Character_3"
+      },
+      {
+        "objectName": "Red_Character_8"
+      },
+      {
+        "objectName": "Blue_Character_6"
+      },
+      {
+        "objectName": "White_Character_7"
+      },
+      {
+        "objectName": "White_Character_10"
       }
     ]
   },

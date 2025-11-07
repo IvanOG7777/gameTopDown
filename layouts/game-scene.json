@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402156967,
+    "zoomFactor": 0.41943397827591805,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -50,8 +50,8 @@
       "name": "floorTile",
       "persistentUuid": "de764d98-03d3-4ff4-9a93-f6515e82855b",
       "width": 1600,
-      "x": -3,
-      "y": -2,
+      "x": 0,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [
@@ -270,8 +270,8 @@
       "name": "shelfGray",
       "persistentUuid": "29735dae-6a8d-4c83-8dfb-4050b14f885d",
       "width": 130,
-      "x": 84,
-      "y": 69,
+      "x": 88,
+      "y": 90,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
@@ -292,8 +292,8 @@
       "name": "shelfGray",
       "persistentUuid": "a9593170-9b8a-4b30-932b-b17b33775838",
       "width": 130,
-      "x": 331,
-      "y": 67,
+      "x": 335,
+      "y": 88,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
@@ -314,30 +314,8 @@
       "name": "shelfGray",
       "persistentUuid": "3deb6e17-dc56-4e58-86b7-27a8b3d47224",
       "width": 130,
-      "x": 209,
-      "y": 68,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 360,
-      "customSize": true,
-      "depth": 0.9774436090225562,
-      "height": 70.37593984962407,
-      "keepRatio": true,
-      "layer": "",
-      "name": "shelfGray",
-      "persistentUuid": "2c2e4590-9213-48ce-8819-959ef72bca5a",
-      "width": 130,
-      "x": 453,
-      "y": 66,
+      "x": 213,
+      "y": 89,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
@@ -1073,6 +1051,138 @@
         }
       ],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "927a3c2a-b10f-41bf-9330-404afc9f5dce",
+      "width": 130,
+      "x": 603,
+      "y": 82,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "d7d19de8-4b31-4dba-b50b-68b1a0cbede7",
+      "width": 130,
+      "x": 850,
+      "y": 80,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "14d532d1-f682-402c-a285-287775204964",
+      "width": 130,
+      "x": 728,
+      "y": 81,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "c651aa20-43a6-4dac-8b6c-c26151aa0965",
+      "width": 130,
+      "x": 1101,
+      "y": 77,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "a5087dc3-1edf-4fd6-8dec-f17a90934b1b",
+      "width": 130,
+      "x": 1348,
+      "y": 75,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "ea653859-6d13-4f9a-b894-1f8415ca92ab",
+      "width": 130,
+      "x": 1226,
+      "y": 76,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1400,6 +1510,306 @@
         "tileSize": 16,
         "tilesWithHitBox": "17,24,18,25,19,26"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Red Character 6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Special Character 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\White Character 10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Blue Character 6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Red Character 8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1430,6 +1840,21 @@
       },
       {
         "objectName": "checkout"
+      },
+      {
+        "objectName": "NPC1"
+      },
+      {
+        "objectName": "NPC2"
+      },
+      {
+        "objectName": "NPC3"
+      },
+      {
+        "objectName": "NPC4"
+      },
+      {
+        "objectName": "NPC5"
       },
       {
         "objectName": "shelfBeige"

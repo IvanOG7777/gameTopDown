@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.713037763069051,
+    "zoomFactor": 0.5290357402156967,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -34,8 +34,8 @@
       "name": "TopDown_Character",
       "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
       "width": 0,
-      "x": 608,
-      "y": 328,
+      "x": 207,
+      "y": 799,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -50,8 +50,8 @@
       "name": "floorTile",
       "persistentUuid": "de764d98-03d3-4ff4-9a93-f6515e82855b",
       "width": 1600,
-      "x": 0,
-      "y": 0,
+      "x": -3,
+      "y": -2,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [
@@ -151,7 +151,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 0.7048458149779735,
       "height": 50.74889867841409,
@@ -160,9 +160,9 @@
       "name": "shelfGreen",
       "persistentUuid": "dc2c275d-46d4-4e12-977e-f719e74b8645",
       "width": 160,
-      "x": 510,
-      "y": 156,
-      "zOrder": 6,
+      "x": 178,
+      "y": 417,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -173,7 +173,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 271,
       "customSize": true,
       "depth": 0.7048458149779735,
       "height": 50.74889867841409,
@@ -182,8 +182,8 @@
       "name": "shelfGreen",
       "persistentUuid": "263f439a-4ba1-4940-a6ae-7ea24c33e07c",
       "width": 160,
-      "x": 353,
-      "y": 155,
+      "x": 25,
+      "y": 417,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [
@@ -195,29 +195,7 @@
       "initialVariables": []
     },
     {
-      "angle": 136,
-      "customSize": true,
-      "depth": 0.7048458149779735,
-      "height": 50.74889867841409,
-      "keepRatio": true,
-      "layer": "",
-      "name": "shelfGreen",
-      "persistentUuid": "6617f8f7-a3f5-41cb-860e-79cd2fecae6d",
-      "width": 160,
-      "x": 1012,
-      "y": 514,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 315,
+      "angle": 270,
       "customSize": true,
       "depth": 0.7048458149779735,
       "height": 50.74889867841409,
@@ -226,8 +204,8 @@
       "name": "shelfGreen",
       "persistentUuid": "e52bff5b-2273-4ba2-9ff1-eb96eb9c736c",
       "width": 160,
-      "x": 76,
-      "y": 127,
+      "x": 27,
+      "y": 257,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [
@@ -239,7 +217,7 @@
       "initialVariables": []
     },
     {
-      "angle": 180,
+      "angle": 270,
       "customSize": true,
       "depth": 0.7048458149779735,
       "height": 50.74889867841409,
@@ -248,8 +226,8 @@
       "name": "shelfGreen",
       "persistentUuid": "67d2bbaf-c2a3-452d-ac29-2628d769212f",
       "width": 160,
-      "x": 370,
-      "y": 540,
+      "x": 23,
+      "y": 576,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [
@@ -261,7 +239,7 @@
       "initialVariables": []
     },
     {
-      "angle": 180,
+      "angle": 90,
       "customSize": true,
       "depth": 0.7048458149779735,
       "height": 50.74889867841409,
@@ -270,8 +248,8 @@
       "name": "shelfGreen",
       "persistentUuid": "e361a15b-9b28-4bd5-9571-222a95963564",
       "width": 160,
-      "x": 527,
-      "y": 541,
+      "x": 176,
+      "y": 575,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [
@@ -292,9 +270,9 @@
       "name": "shelfGray",
       "persistentUuid": "29735dae-6a8d-4c83-8dfb-4050b14f885d",
       "width": 130,
-      "x": 925,
-      "y": 166,
-      "zOrder": 7,
+      "x": 84,
+      "y": 69,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -314,9 +292,9 @@
       "name": "shelfGray",
       "persistentUuid": "a9593170-9b8a-4b30-932b-b17b33775838",
       "width": 130,
-      "x": 1137,
-      "y": 165,
-      "zOrder": 7,
+      "x": 331,
+      "y": 67,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -327,7 +305,7 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
+      "angle": 360,
       "customSize": true,
       "depth": 0.9774436090225562,
       "height": 70.37593984962407,
@@ -336,9 +314,9 @@
       "name": "shelfGray",
       "persistentUuid": "3deb6e17-dc56-4e58-86b7-27a8b3d47224",
       "width": 130,
-      "x": 900,
-      "y": 355,
-      "zOrder": 7,
+      "x": 209,
+      "y": 68,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -349,7 +327,7 @@
       "initialVariables": []
     },
     {
-      "angle": 89,
+      "angle": 360,
       "customSize": true,
       "depth": 0.9774436090225562,
       "height": 70.37593984962407,
@@ -358,14 +336,740 @@
       "name": "shelfGray",
       "persistentUuid": "2c2e4590-9213-48ce-8819-959ef72bca5a",
       "width": 130,
-      "x": 1176,
-      "y": 360,
-      "zOrder": 7,
+      "x": 453,
+      "y": 66,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
         {
           "name": "tilemap",
           "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "checkout",
+      "persistentUuid": "f479b672-800b-418e-96b4-4b48f0612e2d",
+      "width": 22,
+      "x": 80,
+      "y": 720,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[13]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "checkout",
+      "persistentUuid": "75b79919-6943-41a9-a5a7-ffe4c024da23",
+      "width": 22,
+      "x": 145,
+      "y": 720,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[13]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "checkout",
+      "persistentUuid": "5b6b3396-5656-47e1-8518-e71f3a2e1a52",
+      "width": 22,
+      "x": 210,
+      "y": 720,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[13]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "checkout",
+      "persistentUuid": "b61d77e5-281d-4f50-8f98-808266f8569c",
+      "width": 22,
+      "x": 281,
+      "y": 720,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[13]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "checkout",
+      "persistentUuid": "1ed1b354-4902-4cdd-a0ba-633e94ac3c19",
+      "width": 22,
+      "x": 351,
+      "y": 720,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[13]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "checkout",
+      "persistentUuid": "b02a74a1-54f4-4f62-9e8c-5f47b3fae557",
+      "width": 22,
+      "x": 421,
+      "y": 720,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6],[13]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "13b97cd0-282f-4601-a745-85068930072a",
+      "width": 160,
+      "x": 180,
+      "y": 259,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "24cb8132-11e0-4c55-a695-b3538f5bddf4",
+      "width": 160,
+      "x": 472,
+      "y": 416,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 271,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "a7380f38-c770-40a1-9f32-067f2767de15",
+      "width": 160,
+      "x": 319,
+      "y": 416,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "19337f30-6b3b-44e2-9ea8-a544369cd6f9",
+      "width": 160,
+      "x": 321,
+      "y": 256,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "8ecd19b8-20bf-40dd-8f16-d961b0d389a7",
+      "width": 160,
+      "x": 317,
+      "y": 575,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "3b4e2f5b-8377-4377-98b8-7e0ce8538750",
+      "width": 160,
+      "x": 470,
+      "y": 574,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "98f2dc15-cf35-4419-b6c6-5ea78c93157e",
+      "width": 160,
+      "x": 474,
+      "y": 258,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "e46f89a5-3578-4546-9e24-6519ba58469e",
+      "width": 114,
+      "x": 622,
+      "y": 235,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "8906a1ed-d46f-4db0-bbe1-3273097af436",
+      "width": 114,
+      "x": 622,
+      "y": 349,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "dd1f5ab0-513e-489f-896b-4b66219e5e79",
+      "width": 114,
+      "x": 623,
+      "y": 463,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "1afc5d60-d015-4135-a271-6eba012d2ea5",
+      "width": 114,
+      "x": 623,
+      "y": 576,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "05a30da9-39f4-420c-b64f-617814f2132e",
+      "width": 114,
+      "x": 623,
+      "y": 605,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "5a113ede-8b14-4ada-a0c8-bac350f95198",
+      "width": 114,
+      "x": 764,
+      "y": 606,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "fffef67c-fc1f-4b90-80e0-7e1ad75b0861",
+      "width": 114,
+      "x": 764,
+      "y": 492,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "d73ae16c-bfa6-4ece-947a-46ee5d290540",
+      "width": 114,
+      "x": 763,
+      "y": 378,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "e195d3a5-caf7-4a36-9259-7c1631cbea64",
+      "width": 114,
+      "x": 763,
+      "y": 265,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "3f4e1e89-a532-4a1f-953e-d10d3ff3ef63",
+      "width": 114,
+      "x": 763,
+      "y": 236,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "ed1b8043-9675-4f49-9d36-c9b1ec061770",
+      "width": 114,
+      "x": 886,
+      "y": 237,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "99cda0c8-0edd-4542-9b8b-cef804322624",
+      "width": 114,
+      "x": 886,
+      "y": 351,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "aa9653fa-8a83-4141-b7c9-dc6af5aa18a2",
+      "width": 114,
+      "x": 887,
+      "y": 465,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "6d689622-5717-4e80-9ac8-1dcd12ac8254",
+      "width": 114,
+      "x": 887,
+      "y": 578,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "9fc19436-520f-465b-92c1-31c2f0c60609",
+      "width": 114,
+      "x": 887,
+      "y": 607,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "1487cd19-5998-4f99-a5c5-2cf1460e4bb1",
+      "width": 114,
+      "x": 1028,
+      "y": 608,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "995666a6-7344-42e3-9804-c0c44862a9fb",
+      "width": 114,
+      "x": 1028,
+      "y": 494,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "aecb2b99-99f5-4316-991b-37807a3b4d74",
+      "width": 114,
+      "x": 1027,
+      "y": 380,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "0aa58782-53c5-48e9-aabc-1d77f1ca7a99",
+      "width": 114,
+      "x": 1027,
+      "y": 267,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "f9c71794-7288-4549-be34-14bc4b74dbf0",
+      "width": 114,
+      "x": 1027,
+      "y": 238,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
         }
       ],
       "initialVariables": []
@@ -443,9 +1147,9 @@
           "IsCalledManually": false
         },
         {
-          "ignoreDefaultControls": false,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "ignoreDefaultControls": false,
           "acceleration": 700,
           "maxSpeed": 300,
           "angularMaxSpeed": 300,
@@ -477,7 +1181,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\StartingPlayer.png",
+                  "image": "assets\\Green Character 3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -493,20 +1197,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 0,
+                        "y": 31
                       },
                       {
-                        "x": 62,
-                        "y": 2
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 62,
-                        "y": 62
+                        "x": 21,
+                        "y": 0
                       },
                       {
-                        "x": 2,
-                        "y": 62
+                        "x": 21,
+                        "y": 31
                       }
                     ]
                   ]
@@ -624,21 +1328,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewTileMap",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "",
-        "rowCount": 1,
-        "columnCount": 1,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "fridgeWall",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
@@ -669,21 +1358,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewTileMap2",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "",
-        "rowCount": 1,
-        "columnCount": 1,
-        "tileSize": 8,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "shelfGray",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
@@ -696,6 +1370,36 @@
         "tileSize": 16,
         "tilesWithHitBox": "3,10,4,11,5,12"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "checkout",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "MarketSet_Tileset.png",
+        "rowCount": 10,
+        "columnCount": 7,
+        "tileSize": 16,
+        "tilesWithHitBox": "6,13"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "shelfBeige",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "MarketSet_Tileset.png",
+        "rowCount": 10,
+        "columnCount": 7,
+        "tileSize": 16,
+        "tilesWithHitBox": "17,24,18,25,19,26"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -703,12 +1407,6 @@
     "children": [
       {
         "objectName": "TopDown_Character"
-      },
-      {
-        "objectName": "NewTileMap2"
-      },
-      {
-        "objectName": "NewTileMap"
       },
       {
         "folderName": "Mobile Controls",
@@ -729,6 +1427,12 @@
       },
       {
         "objectName": "shelfGray"
+      },
+      {
+        "objectName": "checkout"
+      },
+      {
+        "objectName": "shelfBeige"
       }
     ]
   },
@@ -764,6 +1468,16 @@
           "parameters": [
             "TopDown_Character",
             "shelfGray",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "checkout",
             ""
           ]
         }

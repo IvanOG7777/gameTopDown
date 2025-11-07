@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994106,
+    "zoomFactor": 0.6040838749988932,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -162,6 +162,138 @@
         {
           "name": "tilemap",
           "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":54,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[31,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,33],[38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "dc2c275d-46d4-4e12-977e-f719e74b8645",
+      "width": 160,
+      "x": 510,
+      "y": 156,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "263f439a-4ba1-4940-a6ae-7ea24c33e07c",
+      "width": 160,
+      "x": 353,
+      "y": 155,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 136,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "6617f8f7-a3f5-41cb-860e-79cd2fecae6d",
+      "width": 160,
+      "x": 1012,
+      "y": 514,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 315,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "e52bff5b-2273-4ba2-9ff1-eb96eb9c736c",
+      "width": 160,
+      "x": 76,
+      "y": 127,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "67d2bbaf-c2a3-452d-ac29-2628d769212f",
+      "width": 160,
+      "x": 370,
+      "y": 540,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 0.7048458149779735,
+      "height": 50.74889867841409,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGreen",
+      "persistentUuid": "e361a15b-9b28-4bd5-9571-222a95963564",
+      "width": 160,
+      "x": 527,
+      "y": 541,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[45,46,46,46,46,47],[52,53,53,53,53,54]]}]}"
         }
       ],
       "initialVariables": []
@@ -438,6 +570,21 @@
         "tileSize": 16,
         "tilesWithHitBox": "31,38,32,39,33,40"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "shelfGreen",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "MarketSet_Tileset.png",
+        "rowCount": 10,
+        "columnCount": 7,
+        "tileSize": 16,
+        "tilesWithHitBox": "45,52,46,53,47,54"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -462,6 +609,9 @@
       },
       {
         "objectName": "fridgeWall"
+      },
+      {
+        "objectName": "shelfGreen"
       }
     ]
   },
@@ -542,6 +692,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
     },
     {
       "name": "Opacity",

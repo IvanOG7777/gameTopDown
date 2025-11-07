@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988932,
+    "zoomFactor": 0.713037763069051,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -43,29 +43,13 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "MobileControls",
-      "name": "Joystick",
-      "persistentUuid": "b0c31bb4-0add-4dda-9367-c5136e4b118d",
-      "width": 0,
-      "x": 176,
-      "y": 576,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 720,
+      "height": 900,
       "layer": "",
       "name": "floorTile",
       "persistentUuid": "de764d98-03d3-4ff4-9a93-f6515e82855b",
-      "width": 1280,
+      "width": 1600,
       "x": 0,
       "y": 0,
       "zOrder": 0,
@@ -81,13 +65,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 47.407407407407405,
+      "depth": 1,
+      "height": 47,
       "keepRatio": true,
       "layer": "",
       "name": "fridgeWall",
       "persistentUuid": "d23122b6-c4f9-4dc5-9703-722d6c1dbfad",
-      "width": 1280,
+      "width": 1599,
       "x": 0,
       "y": 0,
       "zOrder": 5,
@@ -109,9 +93,9 @@
       "layer": "",
       "name": "fridgeWall",
       "persistentUuid": "3ceca4ca-203c-46dc-ad9a-72945492b99b",
-      "width": 722,
-      "x": -338,
-      "y": 339,
+      "width": 898,
+      "x": -426,
+      "y": 427,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
@@ -125,15 +109,15 @@
     {
       "angle": 180,
       "customSize": true,
-      "depth": 0,
-      "height": 47.407407407407405,
+      "depth": 1,
+      "height": 47,
       "keepRatio": true,
       "layer": "",
       "name": "fridgeWall",
       "persistentUuid": "fc600f32-aa6a-43c1-add7-d04abfe17185",
-      "width": 1280,
-      "x": -2,
-      "y": 678,
+      "width": 1597,
+      "x": -1,
+      "y": 866,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
@@ -153,9 +137,9 @@
       "layer": "",
       "name": "fridgeWall",
       "persistentUuid": "757e9fcd-95a7-443d-a65a-bfa67684e4be",
-      "width": 722,
-      "x": 897,
-      "y": 341,
+      "width": 902,
+      "x": 1124,
+      "y": 427,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [
@@ -297,6 +281,94 @@
         }
       ],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "29735dae-6a8d-4c83-8dfb-4050b14f885d",
+      "width": 130,
+      "x": 925,
+      "y": 166,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "a9593170-9b8a-4b30-932b-b17b33775838",
+      "width": 130,
+      "x": 1137,
+      "y": 165,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "3deb6e17-dc56-4e58-86b7-27a8b3d47224",
+      "width": 130,
+      "x": 900,
+      "y": 355,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 89,
+      "customSize": true,
+      "depth": 0.9774436090225562,
+      "height": 70.37593984962407,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfGray",
+      "persistentUuid": "2c2e4590-9213-48ce-8819-959ef72bca5a",
+      "width": 130,
+      "x": 1176,
+      "y": 360,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4,4,5],[10,11,11,12]]}]}"
+        }
+      ],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -309,6 +381,15 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown",
+          "Up": "w",
+          "Left": "a",
+          "Right": "d",
+          "Down": "s",
+          "Topdown": "TopDownMovement"
+        },
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
@@ -362,6 +443,7 @@
           "IsCalledManually": false
         },
         {
+          "ignoreDefaultControls": false,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 700,
@@ -371,7 +453,6 @@
           "allowDiagonals": true,
           "angleOffset": 0,
           "customIsometryAngle": 30,
-          "ignoreDefaultControls": false,
           "movementAngleOffset": 0,
           "rotateObject": true,
           "viewpoint": "TopDown"
@@ -585,6 +666,36 @@
         "tileSize": 16,
         "tilesWithHitBox": "45,52,46,53,47,54"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewTileMap2",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "",
+        "rowCount": 1,
+        "columnCount": 1,
+        "tileSize": 8,
+        "tilesWithHitBox": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "shelfGray",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "MarketSet_Tileset.png",
+        "rowCount": 10,
+        "columnCount": 7,
+        "tileSize": 16,
+        "tilesWithHitBox": "3,10,4,11,5,12"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -592,6 +703,9 @@
     "children": [
       {
         "objectName": "TopDown_Character"
+      },
+      {
+        "objectName": "NewTileMap2"
       },
       {
         "objectName": "NewTileMap"
@@ -612,6 +726,9 @@
       },
       {
         "objectName": "shelfGreen"
+      },
+      {
+        "objectName": "shelfGray"
       }
     ]
   },
@@ -627,6 +744,26 @@
           "parameters": [
             "TopDown_Character",
             "fridgeWall",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "shelfGreen",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "shelfGray",
             ""
           ]
         }
@@ -694,16 +831,16 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Object3D",
-      "type": "Scene3D::Base3DBehavior"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "RemapForTopdown",
+      "type": "BehaviorRemapper::RemapForTopdown"
     },
     {
       "name": "Resizable",

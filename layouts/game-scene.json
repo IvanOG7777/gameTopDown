@@ -20,10 +20,16 @@
     "snap": false,
     "zoomFactor": 0.41943397827591805,
     "windowMask": false,
-    "selectedLayer": "UI"
+    "selectedLayer": ""
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CountingDown",
+      "type": "number",
+      "value": 60
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -1191,10 +1197,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Timer_Test",
-      "persistentUuid": "7686dc8e-65ac-4ad7-96dd-a3235867207c",
+      "persistentUuid": "7a2988f5-c951-4f10-9fce-5a0cd25bb953",
       "width": 0,
-      "x": 48,
-      "y": 814,
+      "x": 41,
+      "y": 799,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1841,7 +1847,7 @@
       "string": "Text",
       "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 60,
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,
@@ -1865,7 +1871,7 @@
         "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 60,
+        "characterSize": 30,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -2006,7 +2012,7 @@
             "Timer_Test",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-10)))"
           ]
         }
       ]
@@ -2022,7 +2028,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "10"
           ]
         }
       ],
@@ -2054,6 +2060,24 @@
           "parameters": [
             "TopDown_Character",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Timer_Test",
+            "=",
+            "TopDown_Character.X() + 0",
+            "=",
+            "TopDown_Character.Y() - 50"
           ]
         }
       ]

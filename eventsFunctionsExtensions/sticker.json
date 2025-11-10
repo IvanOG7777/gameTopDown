@@ -371,7 +371,7 @@
       "description": "Stick the object to another. Use the action to stick the object, or unstick it later.",
       "fullName": "Sticker",
       "name": "Sticker",
-      "objectType": "",
+      "objectType": "TextObject::Text",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {

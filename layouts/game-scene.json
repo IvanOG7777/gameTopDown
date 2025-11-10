@@ -2082,7 +2082,7 @@
             "Timer_Test",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-10)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
           ]
         }
       ]
@@ -2098,7 +2098,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "10"
+            "60"
           ]
         }
       ],
@@ -2134,7 +2134,7 @@
           "parameters": [
             "Timer_Test",
             "=",
-            "TopDown_Character.X() + 0",
+            "TopDown_Character.X() - 15",
             "=",
             "TopDown_Character.Y() - 50"
           ]

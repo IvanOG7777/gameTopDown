@@ -2270,7 +2270,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "5"
+            "1"
           ]
         },
         {
@@ -2367,7 +2367,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "2"
+            "20"
           ]
         },
         {
@@ -2561,7 +2561,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "3"
+            "10"
           ]
         },
         {
@@ -2658,7 +2658,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "5"
+            "15"
           ]
         },
         {

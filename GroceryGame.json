@@ -302,6 +302,567 @@
         "name": "assets\\Red Character 8.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Milk Gallon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Milk Gallon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/8d06d185071546c3f22531dec88cdd9c97f4fea9deec0d8302263221f3a94f17_Milk Gallon.png",
+          "name": "Milk Gallon.png"
+        }
+      },
+      {
+        "file": "assets/Orange Juice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Juice.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/cbf1ea7988d8657a2d4a6ac5910e3415b3617127341bc450955cc7e7918b11cc_Orange Juice.png",
+          "name": "Orange Juice.png"
+        }
+      },
+      {
+        "file": "assets/Soft Drink Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Soft Drink Green.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/f601c843249505440c43d067b7a3ae0153b52e86881037c35d13caa2350f374e_Soft Drink Green.png",
+          "name": "Soft Drink Green.png"
+        }
+      },
+      {
+        "file": "assets/Jam Strawberry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jam Strawberry.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/3247783dce3e63de566dfeac69cfdbfebae94109c2b10a942ef6296463dfef34_Jam Strawberry.png",
+          "name": "Jam Strawberry.png"
+        }
+      },
+      {
+        "file": "assets/Ketchup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ketchup.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/614629e6b446df5695267c3cf38706bca4031a0630f58e28652af34237c48a82_Ketchup.png",
+          "name": "Ketchup.png"
+        }
+      },
+      {
+        "file": "assets/Egg Brown Packaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Egg Brown Packaged.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/20eb5a388fe3a9160febd74695ae292fd79dd612f5899c218caadc4c8c24d282_Egg Brown Packaged.png",
+          "name": "Egg Brown Packaged.png"
+        }
+      },
+      {
+        "file": "assets/Potatochip Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potatochip Green.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/debfd1a289adaead95415e33812c53c598e3d54ea24d117f7dcb11975cc65725_Potatochip Green.png",
+          "name": "Potatochip Green.png"
+        }
+      },
+      {
+        "file": "assets/Potatochip Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potatochip Blue.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/0fd6a6d451afd7147acf12b66ce524a1ce91c7437ac6a1d41593334f16fd023c_Potatochip Blue.png",
+          "name": "Potatochip Blue.png"
+        }
+      },
+      {
+        "file": "assets/Detergent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Detergent.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/bb5548461f863491a2e2d9233449fec9671d50a95d6d86ebe66f3d40b1780879_Detergent.png",
+          "name": "Detergent.png"
+        }
+      },
+      {
+        "file": "assets/Rubber Duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rubber Duck.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/dd70c51468f802b08b8f2e02cd562964f4408b5c0483b91d5c380954e6b449ce_Rubber Duck.png",
+          "name": "Rubber Duck.png"
+        }
+      },
+      {
+        "file": "assets/Milk Chocolate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Milk Chocolate.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/8c7c5cd05d3722373deff402ff2ef26de80af62898994c4bfe7b446db497cf44_Milk Chocolate.png",
+          "name": "Milk Chocolate.png"
+        }
+      },
+      {
+        "file": "assets/Baguette.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Baguette.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Food/df7a999b4a0d9b426ceb39264afd6305f698f88f9ece622e53fbf9cd35c26722_Baguette.png",
+          "name": "Baguette.png"
+        }
+      },
+      {
+        "file": "assets/Bathroom Cleaner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bathroom Cleaner.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/305504ecbcab9b3485ec6ab5a414140ead3a470d224299063825aaf21aadabc6_Bathroom Cleaner.png",
+          "name": "Bathroom Cleaner.png"
+        }
+      },
+      {
+        "file": "assets/Kitchen Soap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kitchen Soap.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/c144188682ff437c87b44c3d6dfd4903388bb40d4eb78b5e9b387f0113551e79_Kitchen Soap.png",
+          "name": "Kitchen Soap.png"
+        }
+      },
+      {
+        "file": "assets/Wine Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wine Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/cf876897ef91864f61b83456ac8a87f0e6dab45d911815ce31b520539ffce708_Wine Red.png",
+          "name": "Wine Red.png"
+        }
+      },
+      {
+        "file": "assets/Wine White3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wine White3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/f8d17e4c128038c9ce1f251ba70cdae17252e76b86d0f141625eb92bca996046_Wine White3.png",
+          "name": "Wine White3.png"
+        }
+      },
+      {
+        "file": "assets/Soft Drink Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Soft Drink Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/3e05d68ada346227928691939013b3c28c016da9573243efba27e3d8584c77cd_Soft Drink Red.png",
+          "name": "Soft Drink Red.png"
+        }
+      },
+      {
+        "file": "assets/Banana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Banana.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/4b93c33a2be0d94e46a3bf8ebcdf72337e1f3aacaaac6e8b50aa8073849553c0_Banana.png",
+          "name": "Banana.png"
+        }
+      },
+      {
+        "file": "assets/Bell Pepper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bell Pepper.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/0a46536d7a285fc6483fc12f4d8c8f9a426d0606ff3131bd0beba220b41c0d5c_Bell Pepper.png",
+          "name": "Bell Pepper.png"
+        }
+      },
+      {
+        "file": "assets/Cabbage.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cabbage.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/bf1afe1364f07cbbafe54faf9fe9f7979020d891e75d3d5cdf0bb4d4aafe0f61_Cabbage.png",
+          "name": "Cabbage.png"
+        }
+      },
+      {
+        "file": "assets/Butter2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Butter2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/77ab901aa5f3bf19c00476be9c9d4fec1978c4b7e599de9d8a8ef2b7a21761f6_Butter2.png",
+          "name": "Butter2.png"
+        }
+      },
+      {
+        "file": "assets/Light Bulb Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Light Bulb Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/7b71977ca448a89581b80ad0c6eb595907465358170ff03538e8f2737f7a4eb5_Light Bulb Box.png",
+          "name": "Light Bulb Box.png"
+        }
+      },
+      {
+        "file": "assets/Shampoo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shampoo.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/888f1ba38cb79e8ec82f75de7f1adc0c020c997bc0a2808dd0d9e4e449b7c07d_Shampoo.png",
+          "name": "Shampoo.png"
+        }
+      },
+      {
+        "file": "assets/Sun Cream Tube.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sun Cream Tube.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/a1f727b805e44dc9140eee620d6091b1e8104e6f50b075fdaeceeb8f6e64a82b_Sun Cream Tube.png",
+          "name": "Sun Cream Tube.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Bagel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bagel.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Food/8515022fdbe5ad135b22848377c1e55c5b4685a41e97449c50add48b0d20ed60_Bagel.png",
+          "name": "Bagel.png"
+        }
+      },
+      {
+        "file": "assets/Strawberry Jam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Strawberry Jam.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/4da30a724fcee89b20a12d4fde46307d7207acb519116cfce718a4600e7d3f8c_Strawberry Jam.png",
+          "name": "Strawberry Jam.png"
+        }
+      },
+      {
+        "file": "assets/Green Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Apple.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/9945c24b9dddf67164dd86dfd182815a858d30964e175544e563a0e0acc4b3fc_Green Apple.png",
+          "name": "Green Apple.png"
+        }
+      },
+      {
+        "file": "assets/Red Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Apple.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/da65ceda169e4aa7a15a33da71736b5a55532d42e0491c7d3962f80d9f73c936_Red Apple.png",
+          "name": "Red Apple.png"
+        }
+      },
+      {
+        "file": "assets/Snack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Snack1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/8557109f8b93bc1f5a3cfb0fa2ba5b154d259fa0f04e5b28750ab34d4e8ed8f8_Snack1.png",
+          "name": "Snack1.png"
+        }
+      },
+      {
+        "file": "assets/Milk Pack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Milk Pack.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/1743e1269d02a0b394c181de6c896d36254d8f5c0d7bdf6c538e1cd0fa548bb7_Milk Pack.png",
+          "name": "Milk Pack.png"
+        }
+      },
+      {
+        "file": "assets/Cereal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cereal2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/9201556237ce63d4450fd022eb718ee0e19982ef1efc3a9253f491f96dee4af0_Cereal2.png",
+          "name": "Cereal2.png"
+        }
+      },
+      {
+        "file": "assets/Fruit Cocktail Can.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fruit Cocktail Can.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/8ea72cc59b745a61d726f577052f0e4fe9f6425eb86f134410969afb8b8cba49_Fruit Cocktail Can.png",
+          "name": "Fruit Cocktail Can.png"
+        }
+      },
+      {
+        "file": "assets/Peanut Butter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peanut Butter.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/3912e38f46894087fc7d518fc2d65c5041258e0bbc2dfcc4f4df8530739540ee_Peanut Butter.png",
+          "name": "Peanut Butter.png"
+        }
+      },
+      {
+        "file": "assets/Bandage Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bandage Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/b974140038911911bc9862833f3d1f2aee872b96a8c9f2321a9dc0f13b00064b_Bandage Box.png",
+          "name": "Bandage Box.png"
+        }
+      },
+      {
+        "file": "assets/Donut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Donut.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Food/a207a354d7ce0d1d1c06aab9d226dcf7c6e600ea70ae244fc5fff283f8a414e4_Donut.png",
+          "name": "Donut.png"
+        }
+      },
+      {
+        "file": "assets/Soft Drink Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Soft Drink Blue.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/b615ebd61344e043cf109d780dc3d6735b90339aecbb720dec8eecbddd9daac1_Soft Drink Blue.png",
+          "name": "Soft Drink Blue.png"
+        }
+      },
+      {
+        "file": "assets/Wine White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wine White.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/2a7000754c7c65d5ef601f893ab6495a5451106399e84868bf32ae722462b004_Wine White.png",
+          "name": "Wine White.png"
+        }
+      },
+      {
+        "file": "assets/Toilet Paper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toilet Paper.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/93520c4f289a58b4a3eab50b068dce6b6bac2ad5b08c37ce906eb5754932170a_Toilet Paper.png",
+          "name": "Toilet Paper.png"
+        }
+      },
+      {
+        "file": "assets/Grape Soda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grape Soda.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/431fcb281b089479b5ffa2843066c8d13f11a1d492ffc0a2d01271abc6319ab5_Grape Soda.png",
+          "name": "Grape Soda.png"
+        }
+      },
+      {
+        "file": "assets/Egg White Packaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Egg White Packaged.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/42c9b3667af1fe2229aae0b4a9e87e02758bced35528a6d2d362843f23bb1a35_Egg White Packaged.png",
+          "name": "Egg White Packaged.png"
+        }
+      },
+      {
+        "file": "assets/Hand Sanitiser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hand Sanitiser.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/269bd6f7989f67bac7006c58f39ae78f4ce0b72d9ef19e062a7ca2e14ff1bd5c_Hand Sanitiser.png",
+          "name": "Hand Sanitiser.png"
+        }
+      },
+      {
+        "file": "assets/Rubber Ducktopus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rubber Ducktopus.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/89dd17b58a6870d41bb887c8890220544c779aad042176adf2c78e7141bfd845_Rubber Ducktopus.png",
+          "name": "Rubber Ducktopus.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -755,7 +1316,13 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "total_count",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -775,6 +1342,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
     }
   ],
   "externalLayouts": []

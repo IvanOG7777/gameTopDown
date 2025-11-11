@@ -18,12 +18,74 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827591805,
+    "zoomFactor": 0.6897782140104693,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "UI"
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "food_group",
+      "objects": [
+        {
+          "name": "Bagel"
+        },
+        {
+          "name": "Soft_Drink_Blue"
+        },
+        {
+          "name": "Fruit_Cocktail_Can"
+        },
+        {
+          "name": "Milk_Pack"
+        },
+        {
+          "name": "Strawberry_Jam"
+        },
+        {
+          "name": "Snack1"
+        },
+        {
+          "name": "Red_Apple"
+        }
+      ]
+    },
+    {
+      "name": "nonfood_group",
+      "objects": [
+        {
+          "name": "Rubber_Ducktopus"
+        },
+        {
+          "name": "Hand_Sanitiser"
+        },
+        {
+          "name": "Grape_Soda"
+        },
+        {
+          "name": "Toilet_Paper"
+        },
+        {
+          "name": "Wine_White"
+        },
+        {
+          "name": "Donut"
+        },
+        {
+          "name": "Bandage_Box"
+        },
+        {
+          "name": "Cereal2"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "player_food",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -1183,6 +1245,70 @@
         }
       ],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Soft_Drink_Blue",
+      "persistentUuid": "cc74229e-6aa5-45d8-969b-164a40976d64",
+      "width": 0,
+      "x": 164,
+      "y": 803,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wine_White",
+      "persistentUuid": "32c2c5a8-2e27-49f7-acdb-13566602b5dd",
+      "width": 0,
+      "x": 127,
+      "y": 801,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bandage_Box",
+      "persistentUuid": "82011c21-825f-452a-8cba-51efad907203",
+      "width": 0,
+      "x": 128,
+      "y": 766,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "itemcount",
+      "persistentUuid": "eb9d826e-4ab1-418d-8e6e-a1a23a917583",
+      "width": 0,
+      "x": 51,
+      "y": 679,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1192,7 +1318,23 @@
       "name": "TopDown_Character",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "player_food",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "player_nonfood",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "player_total",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -1810,6 +1952,1069 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "1a406b09c5e80da96d118542af2d2e53b6d84e16e6281e965d700348d84f2aec",
+      "name": "Bagel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bagel.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "x": 27,
+                        "y": 7
+                      },
+                      {
+                        "x": 27,
+                        "y": 26
+                      },
+                      {
+                        "x": 5,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9eeb7fc64a1a97973f4f8bf0b8891551372a8a9bf1d299981aa76f825771c006",
+      "name": "Strawberry_Jam",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Strawberry Jam.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "e7d11a34e15edf086abd30b6710df4d84860af73e2408d1c9822044a5c501be8",
+      "name": "Red_Apple",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red Apple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 7
+                      },
+                      {
+                        "x": 29,
+                        "y": 7
+                      },
+                      {
+                        "x": 29,
+                        "y": 27
+                      },
+                      {
+                        "x": 4,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d04cb49b1a42d8c6121ce31b373f022ee843b800518588820a9717c30e059403",
+      "name": "Snack1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Snack1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 30
+                      },
+                      {
+                        "x": 3,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5d3f7118cb650e96c3b5c1a15cccad92beb8216c90fe68e2a40386cb5a7049e3",
+      "name": "Milk_Pack",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Milk Pack.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 2
+                      },
+                      {
+                        "x": 25,
+                        "y": 2
+                      },
+                      {
+                        "x": 25,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "f2b02a5896b21157cf08f8bb19b4b1dfe97a87beecca2bcd25d21e13e7ce5c16",
+      "name": "Cereal2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cereal2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 30
+                      },
+                      {
+                        "x": 5,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "8bc7c2aa53375eb5ac192a6e51e1d5595987cb37d99e885a8b9ab509cd4f977c",
+      "name": "Fruit_Cocktail_Can",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fruit Cocktail Can.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 30
+                      },
+                      {
+                        "x": 6,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5ac90397b67be36cf972728bc7bbb4608342619e37fe73fe5a6845f99a8712d5",
+      "name": "Peanut_Butter",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Peanut Butter.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 31
+                      },
+                      {
+                        "x": 6,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "786cc4f478e557b53315636ed693a553a7037ccfb390a7710dc6ffb8921d2616",
+      "name": "Bandage_Box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bandage Box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 3
+                      },
+                      {
+                        "x": 26,
+                        "y": 3
+                      },
+                      {
+                        "x": 26,
+                        "y": 30
+                      },
+                      {
+                        "x": 6,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "b74cfb0ca9e5af17f95233b66b0632c4b496ae6b1ecb3508bdd3f6f0b39df055",
+      "name": "Donut",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Donut.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 30,
+                        "y": 6
+                      },
+                      {
+                        "x": 30,
+                        "y": 27
+                      },
+                      {
+                        "x": 3,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c4224b1dd931333a1264b3197135482c1743f3d164c9da2d06e20e9984ec52d5",
+      "name": "Soft_Drink_Blue",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Soft Drink Blue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 2
+                      },
+                      {
+                        "x": 25,
+                        "y": 2
+                      },
+                      {
+                        "x": 25,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "e3e070a961ec858349333d4d4443ad2728841fe06a2a46e798547e5fcfc4768a",
+      "name": "Wine_White",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Wine White.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 30,
+                        "y": 2
+                      },
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 2,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "497a096e43a537b5175e95398b96ae2821f815b32412e6c1b7e5824d6d6ab575",
+      "name": "Toilet_Paper",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Toilet Paper.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "0b0b9ac5eb7325bf11fceb484a21e05de574341d2cd959de82b103949b16ef79",
+      "name": "Grape_Soda",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grape Soda.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 23,
+                        "y": 1
+                      },
+                      {
+                        "x": 23,
+                        "y": 31
+                      },
+                      {
+                        "x": 9,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "1d21314e0a59742478f187d8f79e7e0b5b75327c7cad6af3180b5bf5eeda7206",
+      "name": "Egg_White_Packaged",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Egg White Packaged.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 31,
+                        "y": 6
+                      },
+                      {
+                        "x": 31,
+                        "y": 27
+                      },
+                      {
+                        "x": 1,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "af602360c2f24ddc494fe50bbafd4439a1329d4a67554b390c3a0b62899b74ad",
+      "name": "Hand_Sanitiser",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hand Sanitiser.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 2
+                      },
+                      {
+                        "x": 24,
+                        "y": 2
+                      },
+                      {
+                        "x": 24,
+                        "y": 31
+                      },
+                      {
+                        "x": 9,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "01187f712c4693dbb25ef9ed3d7c584571c40a4e434f3ea8c8cb088d4f6d03c2",
+      "name": "Rubber_Ducktopus",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rubber Ducktopus.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 31
+                      },
+                      {
+                        "x": 3,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "itemcount",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Items: 0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Items: 0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1819,8 +3024,72 @@
         "objectName": "TopDown_Character"
       },
       {
+        "objectName": "itemcount"
+      },
+      {
+        "folderName": "nonfood_items",
+        "children": [
+          {
+            "objectName": "Wine_White"
+          },
+          {
+            "objectName": "Donut"
+          },
+          {
+            "objectName": "Bandage_Box"
+          },
+          {
+            "objectName": "Toilet_Paper"
+          },
+          {
+            "objectName": "Grape_Soda"
+          },
+          {
+            "objectName": "Egg_White_Packaged"
+          },
+          {
+            "objectName": "Hand_Sanitiser"
+          },
+          {
+            "objectName": "Rubber_Ducktopus"
+          }
+        ]
+      },
+      {
+        "folderName": "food_items",
+        "children": [
+          {
+            "objectName": "Soft_Drink_Blue"
+          },
+          {
+            "objectName": "Fruit_Cocktail_Can"
+          },
+          {
+            "objectName": "Peanut_Butter"
+          },
+          {
+            "objectName": "Milk_Pack"
+          },
+          {
+            "objectName": "Strawberry_Jam"
+          },
+          {
+            "objectName": "Snack1"
+          },
+          {
+            "objectName": "Red_Apple"
+          },
+          {
+            "objectName": "Bagel"
+          }
+        ]
+      },
+      {
         "folderName": "Mobile Controls",
         "children": [
+          {
+            "objectName": "Cereal2"
+          },
           {
             "objectName": "Joystick"
           }
@@ -1907,6 +3176,162 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "food_group",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "food_group"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "player_food",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "player_total",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "food_group"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "total_count",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "itemcount",
+            "Text",
+            "=",
+            "\"Items: \" + total_count"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "nonfood_group",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "nonfood_group"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "player_nonfood",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "player_total",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "nonfood_group"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "total_count",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "itemcount",
+            "Text",
+            "=",
+            "\"Items: \" + total_count"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1954,6 +3379,59 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -1992,6 +3470,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

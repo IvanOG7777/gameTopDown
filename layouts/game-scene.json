@@ -1670,6 +1670,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1680,10 +1682,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -1753,6 +1753,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1763,10 +1765,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -1836,6 +1836,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1846,10 +1848,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -1919,6 +1919,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1929,10 +1931,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [

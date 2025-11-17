@@ -324,6 +324,44 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "390254__pflanigan__050816-a-crowded-grocery-store-sapporo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "390254__pflanigan__050816-a-crowded-grocery-store-sapporo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hopeful.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9fe230e44f1da3d62eefe7efd9d7b1b9deb847c89d21a4905ba0a50faa7af459_Hopeful.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/9fe230e44f1da3d62eefe7efd9d7b1b9deb847c89d21a4905ba0a50faa7af459_Hopeful.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Beat Thee.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7a13c742cf9c642a6cce07e1d65ffdd6e4df8448f8569f16361fa8d6f3b26de4_Beat Thee.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/7a13c742cf9c642a6cce07e1d65ffdd6e4df8448f8569f16361fa8d6f3b26de4_Beat Thee.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

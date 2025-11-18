@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703312138,
+    "zoomFactor": 0.3797121001948343,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -27,19 +27,7 @@
       "name": "Charaters",
       "objects": [
         {
-          "name": "NPC1"
-        },
-        {
-          "name": "NPC2"
-        },
-        {
-          "name": "NPC3"
-        },
-        {
-          "name": "NPC4"
-        },
-        {
-          "name": "NPC5"
+          "name": "TopDown_Character"
         }
       ]
     },
@@ -92,6 +80,26 @@
           "name": "verticalShelfGreen"
         }
       ]
+    },
+    {
+      "name": "NPCCharacters",
+      "objects": [
+        {
+          "name": "NPC1"
+        },
+        {
+          "name": "NPC2"
+        },
+        {
+          "name": "NPC3"
+        },
+        {
+          "name": "NPC4"
+        },
+        {
+          "name": "NPC5"
+        }
+      ]
     }
   ],
   "variables": [
@@ -129,7 +137,7 @@
       "persistentUuid": "de764d98-03d3-4ff4-9a93-f6515e82855b",
       "width": 1285,
       "x": -2,
-      "y": 1,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [
@@ -2499,7 +2507,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset3.png",
         "rowCount": 10,
@@ -2514,7 +2529,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -2529,7 +2551,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -2544,7 +2573,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -2559,7 +2595,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -2667,11 +2710,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "cellHeight": 8,
           "cellWidth": 8,
-          "name": "Pathfinding",
-          "rotateObject": true,
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2680,6 +2722,7 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
+          "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
       ],
@@ -2750,10 +2793,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 8,
-          "cellWidth": 8,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 8,
+          "cellWidth": 8,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2833,10 +2876,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 8,
-          "cellWidth": 8,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 8,
+          "cellWidth": 8,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2916,10 +2959,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 8,
-          "cellWidth": 8,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 8,
+          "cellWidth": 8,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2989,7 +3032,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -3004,7 +3054,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -3019,7 +3076,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 40,
@@ -3049,7 +3113,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -3064,7 +3135,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 40,
@@ -3079,7 +3157,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 40,
@@ -3094,7 +3179,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -3109,7 +3201,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -3124,7 +3223,14 @@
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "atlasImage": "MarketSet_Tileset.png",
         "rowCount": 10,
@@ -3317,152 +3423,6 @@
           "parameters": [
             "Charaters",
             "Colliders",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "fridgeWall",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "shelfGreen",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "shelfGray",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "checkout",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "wallFront",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "glassEntrance",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "wallLeft",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "innerWall",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "restOfInnerWallFront",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "horizontalWallGray",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "verticalShelfGray",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "innerWallFront",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "verticalShelfGreen",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "TopDown_Character",
-            "shelfBeige",
             ""
           ]
         }
@@ -4750,6 +4710,10 @@
     {
       "name": "Pathfinding",
       "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "RemapForTopdown",

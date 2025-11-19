@@ -362,6 +362,20 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/7a13c742cf9c642a6cce07e1d65ffdd6e4df8448f8569f16361fa8d6f3b26de4_Beat Thee.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Power Up 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "e167082358085fe9b9662ed593a8c01ce5b80792afb039738be50f3759633c86_Power Up 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/e167082358085fe9b9662ed593a8c01ce5b80792afb039738be50f3759633c86_Power Up 1.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

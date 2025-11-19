@@ -3480,7 +3480,7 @@
             "Timer_Test",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-10)))"
           ]
         }
       ]
@@ -3496,7 +3496,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "10"
           ]
         }
       ],
@@ -4584,6 +4584,40 @@
             "2",
             "20",
             "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TimerPaused"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+            "",
+            "",
             ""
           ]
         }

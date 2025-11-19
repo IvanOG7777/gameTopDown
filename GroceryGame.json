@@ -376,6 +376,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/e167082358085fe9b9662ed593a8c01ce5b80792afb039738be50f3759633c86_Power Up 1.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/1up 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "19718bbacb87bd7a1367a4a55a453f197dee53bffd2f14a2cc0969ccbc16c777_1up 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/19718bbacb87bd7a1367a4a55a453f197dee53bffd2f14a2cc0969ccbc16c777_1up 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Coins 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

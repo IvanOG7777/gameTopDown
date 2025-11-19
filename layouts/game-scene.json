@@ -3480,7 +3480,7 @@
             "Timer_Test",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-10)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
           ]
         }
       ]
@@ -3496,7 +3496,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "10"
+            "60"
           ]
         }
       ],

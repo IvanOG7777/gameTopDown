@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7876290101674606,
+    "zoomFactor": 0.6455105703312193,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -158,8 +158,8 @@
       "name": "TopDown_Character",
       "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
       "width": 18,
-      "x": 132,
-      "y": 109,
+      "x": 472,
+      "y": 396,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,8 +174,8 @@
       "name": "floorTile",
       "persistentUuid": "de764d98-03d3-4ff4-9a93-f6515e82855b",
       "width": 1285,
-      "x": -2,
-      "y": 0,
+      "x": 1,
+      "y": -1,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [
@@ -189,14 +189,14 @@
     {
       "angle": 270,
       "customSize": true,
-      "depth": 1,
-      "height": 51,
+      "depth": 0.8547008547008548,
+      "height": 43.58974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGreen",
       "persistentUuid": "e52bff5b-2273-4ba2-9ff1-eb96eb9c736c",
-      "width": 117,
-      "x": 46,
+      "width": 100,
+      "x": 40,
       "y": 174,
       "zOrder": 2,
       "numberProperties": [],
@@ -211,13 +211,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 70,
+      "depth": 0.9160305343511452,
+      "height": 64.12213740458016,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGray",
       "persistentUuid": "29735dae-6a8d-4c83-8dfb-4050b14f885d",
-      "width": 131,
+      "width": 120,
       "x": 76,
       "y": 45,
       "zOrder": 2,
@@ -607,14 +607,14 @@
     {
       "angle": 270,
       "customSize": true,
-      "depth": 1,
-      "height": 51,
+      "depth": 0.8547008547008548,
+      "height": 43.58974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGreen",
       "persistentUuid": "82471f71-7ceb-49e9-bdbc-a0cd300f9f82",
-      "width": 117,
-      "x": 46,
+      "width": 100,
+      "x": 40,
       "y": 335,
       "zOrder": 2,
       "numberProperties": [],
@@ -629,14 +629,14 @@
     {
       "angle": 270,
       "customSize": true,
-      "depth": 1,
-      "height": 49,
+      "depth": 0.8547008547008548,
+      "height": 41.880341880341874,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGreen",
       "persistentUuid": "2c645068-76ac-4f71-a69d-ebdb0b475ff4",
-      "width": 117,
-      "x": 45,
+      "width": 100,
+      "x": 41,
       "y": 484,
       "zOrder": 2,
       "numberProperties": [],
@@ -651,14 +651,14 @@
     {
       "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 51,
+      "depth": 0.8547008547008548,
+      "height": 43.58974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGreen",
       "persistentUuid": "55857b9f-abbe-47b2-990d-e72905d158fb",
-      "width": 117,
-      "x": 136,
+      "width": 100,
+      "x": 130,
       "y": 174,
       "zOrder": 2,
       "numberProperties": [],
@@ -673,14 +673,14 @@
     {
       "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 51,
+      "depth": 0.8547008547008548,
+      "height": 43.58974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGreen",
       "persistentUuid": "870b28e4-e51d-4f64-bc6e-dd2452127bf8",
-      "width": 117,
-      "x": 136,
+      "width": 100,
+      "x": 130,
       "y": 484,
       "zOrder": 2,
       "numberProperties": [],
@@ -695,13 +695,13 @@
     {
       "angle": 270,
       "customSize": true,
-      "depth": 1,
-      "height": 42,
+      "depth": 0.8547008547008548,
+      "height": 35.8974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfBeige",
       "persistentUuid": "725777d5-af3c-45b9-b12a-37dc8e5518f5",
-      "width": 117,
+      "width": 100,
       "x": 250,
       "y": 178,
       "zOrder": 2,
@@ -717,14 +717,14 @@
     {
       "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 51,
+      "depth": 0.8547008547008548,
+      "height": 43.58974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGreen",
       "persistentUuid": "10f9562a-aa07-41ea-8cea-4ff1ebda8bd4",
-      "width": 117,
-      "x": 136,
+      "width": 100,
+      "x": 130,
       "y": 335,
       "zOrder": 2,
       "numberProperties": [],
@@ -739,37 +739,15 @@
     {
       "angle": 270,
       "customSize": true,
-      "depth": 1,
-      "height": 42,
-      "keepRatio": true,
-      "layer": "",
-      "name": "shelfBeige",
-      "persistentUuid": "1dd9d959-af65-4c83-87ab-6d27beff8828",
-      "width": 120,
-      "x": 249,
-      "y": 341,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 1,
-      "height": 42,
+      "depth": 0.8403361344537816,
+      "height": 35.29411764705884,
       "keepRatio": true,
       "layer": "",
       "name": "shelfBeige",
       "persistentUuid": "191efdf3-917a-4b81-80c1-fada29073200",
-      "width": 119,
+      "width": 100,
       "x": 248,
-      "y": 489,
+      "y": 490,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -783,15 +761,15 @@
     {
       "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 42,
+      "depth": 0.8547008547008548,
+      "height": 35.8974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfBeige",
       "persistentUuid": "c8d67f58-4461-4cff-be94-c76e30288057",
-      "width": 117,
-      "x": 341,
-      "y": 179,
+      "width": 100,
+      "x": 350,
+      "y": 180,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -805,15 +783,15 @@
     {
       "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 42,
+      "depth": 0.8547008547008548,
+      "height": 35.8974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfBeige",
       "persistentUuid": "1be2a765-d18e-40e3-a9e5-75e27454b427",
-      "width": 117,
-      "x": 341,
-      "y": 339,
+      "width": 100,
+      "x": 350,
+      "y": 335,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -827,15 +805,15 @@
     {
       "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 42,
+      "depth": 0.8547008547008548,
+      "height": 35.8974358974359,
       "keepRatio": true,
       "layer": "",
       "name": "shelfBeige",
       "persistentUuid": "bc6adc34-3e85-4c07-8527-3fd41a53a633",
-      "width": 117,
-      "x": 341,
-      "y": 488,
+      "width": 100,
+      "x": 350,
+      "y": 490,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -849,13 +827,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 70,
+      "depth": 0.9160305343511452,
+      "height": 64.12213740458016,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGray",
       "persistentUuid": "943d4578-8a80-4676-8f80-ff5d4f519e01",
-      "width": 131,
+      "width": 120,
       "x": 206,
       "y": 45,
       "zOrder": 2,
@@ -871,13 +849,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 70,
+      "depth": 0.9160305343511452,
+      "height": 64.12213740458016,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGray",
       "persistentUuid": "06639d18-bdb3-4938-a483-98b1f6d83420",
-      "width": 131,
+      "width": 120,
       "x": 336,
       "y": 45,
       "zOrder": 2,
@@ -893,13 +871,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 70,
+      "depth": 0.9160305343511452,
+      "height": 64.12213740458016,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGray",
       "persistentUuid": "ba6c6310-2088-48ba-9192-66423234d072",
-      "width": 131,
+      "width": 120,
       "x": 535,
       "y": 45,
       "zOrder": 2,
@@ -915,13 +893,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 70,
+      "depth": 0.9160305343511452,
+      "height": 64.12213740458016,
       "keepRatio": true,
       "layer": "",
       "name": "shelfGray",
       "persistentUuid": "8b642c88-849c-451f-9656-d3e7609c66a3",
-      "width": 131,
+      "width": 120,
       "x": 714,
       "y": 45,
       "zOrder": 2,
@@ -945,7 +923,7 @@
       "persistentUuid": "b277cc3d-b60c-493f-bf5f-c97bf446c09e",
       "width": 22,
       "x": 821,
-      "y": 307,
+      "y": 302,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -967,7 +945,7 @@
       "persistentUuid": "b215f4fb-2ef4-47f2-84e9-e90a534ab868",
       "width": 22,
       "x": 720,
-      "y": 304,
+      "y": 299,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -989,7 +967,7 @@
       "persistentUuid": "aa0b93e1-0015-42ae-816b-63db3a56847b",
       "width": 88,
       "x": 738,
-      "y": 359,
+      "y": 354,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1011,7 +989,7 @@
       "persistentUuid": "12016751-8027-4eb3-a571-d008408a19d9",
       "width": 22,
       "x": 764,
-      "y": 332,
+      "y": 327,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1033,7 +1011,7 @@
       "persistentUuid": "1c01cf97-7712-4d8a-856f-3785a9f2d4e6",
       "width": 22,
       "x": 720,
-      "y": 157,
+      "y": 145,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1055,7 +1033,7 @@
       "persistentUuid": "59f6e705-9b50-414d-802b-513944a445a8",
       "width": 22,
       "x": 821,
-      "y": 159,
+      "y": 147,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1077,7 +1055,7 @@
       "persistentUuid": "a972d364-4f3e-4fec-8835-c5da16faacf4",
       "width": 88,
       "x": 738,
-      "y": 178,
+      "y": 166,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1099,7 +1077,7 @@
       "persistentUuid": "e2a73fe3-0959-46fe-af6c-9077a5be2af8",
       "width": 22,
       "x": 778,
-      "y": 111,
+      "y": 99,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1121,7 +1099,7 @@
       "persistentUuid": "511a8c44-f709-49f1-aaab-0dd660bdb529",
       "width": 22,
       "x": 635,
-      "y": 306,
+      "y": 301,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1143,7 +1121,7 @@
       "persistentUuid": "4ce12335-17df-4b37-82af-c1984793ea63",
       "width": 22,
       "x": 534,
-      "y": 303,
+      "y": 298,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1165,7 +1143,7 @@
       "persistentUuid": "f2dec354-3bd2-4851-8cae-d3fa3918391b",
       "width": 88,
       "x": 551,
-      "y": 358,
+      "y": 353,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1187,7 +1165,7 @@
       "persistentUuid": "0a8cf0ae-53f6-46ff-98de-5de7a8f7e61d",
       "width": 22,
       "x": 577,
-      "y": 331,
+      "y": 326,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1209,7 +1187,7 @@
       "persistentUuid": "6cbf771e-017f-4644-913a-9debd04b2a38",
       "width": 22,
       "x": 534,
-      "y": 157,
+      "y": 145,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1231,7 +1209,7 @@
       "persistentUuid": "29ceea00-d56d-4132-af27-35f201d9918f",
       "width": 22,
       "x": 635,
-      "y": 159,
+      "y": 147,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1253,7 +1231,7 @@
       "persistentUuid": "c046158d-0c75-44b9-936b-94cf76b830af",
       "width": 88,
       "x": 552,
-      "y": 177,
+      "y": 165,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1275,7 +1253,7 @@
       "persistentUuid": "80c65f23-673a-45e0-a21d-4d90a2eaeb0c",
       "width": 22,
       "x": 592,
-      "y": 109,
+      "y": 97,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1385,7 +1363,7 @@
       "persistentUuid": "f641307d-18f8-4fce-ac48-5c79584f820f",
       "width": 22,
       "x": 720,
-      "y": 452,
+      "y": 447,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1407,7 +1385,7 @@
       "persistentUuid": "0f42eab4-3970-4388-bd3b-91ff7f0c4ac4",
       "width": 22,
       "x": 820,
-      "y": 453,
+      "y": 448,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1429,7 +1407,7 @@
       "persistentUuid": "be83a3c0-0494-4d65-b505-e291538c635c",
       "width": 88,
       "x": 738,
-      "y": 473,
+      "y": 468,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1451,7 +1429,7 @@
       "persistentUuid": "1082c512-f2fe-47cc-be60-bf5c3068e3b5",
       "width": 22,
       "x": 777,
-      "y": 405,
+      "y": 400,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1561,7 +1539,7 @@
       "persistentUuid": "7159bed1-279e-46b6-8a43-3640d585887c",
       "width": 22,
       "x": 533,
-      "y": 451,
+      "y": 446,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1583,7 +1561,7 @@
       "persistentUuid": "00347cb1-1455-4c9e-b5dc-a6bf82c400b5",
       "width": 22,
       "x": 634,
-      "y": 453,
+      "y": 448,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1605,7 +1583,7 @@
       "persistentUuid": "69de9db1-8b30-4b12-9b73-7cc5a1f72dec",
       "width": 88,
       "x": 551,
-      "y": 471,
+      "y": 466,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1627,7 +1605,7 @@
       "persistentUuid": "0839746b-c621-4cfd-8083-a62cf4306c03",
       "width": 22,
       "x": 590,
-      "y": 404,
+      "y": 399,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1818,14 +1796,14 @@
       "angle": 270,
       "customSize": true,
       "depth": 1,
-      "height": 106,
+      "height": 100,
       "keepRatio": true,
       "layer": "",
       "name": "innerWall",
       "persistentUuid": "44542414-4f35-4584-a5ae-c1f9af47b0d4",
-      "width": 22,
-      "x": 1021,
-      "y": 547,
+      "width": 21,
+      "x": 1013,
+      "y": 546,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1840,14 +1818,14 @@
       "angle": 270,
       "customSize": true,
       "depth": 1,
-      "height": 107,
+      "height": 101,
       "keepRatio": true,
       "layer": "",
       "name": "innerWall",
       "persistentUuid": "076b0164-0c3d-491a-8525-7241aab23357",
-      "width": 22,
-      "x": 1024,
-      "y": 447,
+      "width": 21,
+      "x": 1016,
+      "y": 449,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1862,14 +1840,14 @@
       "angle": 270,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 30,
       "keepRatio": true,
       "layer": "",
       "name": "fridgeWall",
       "persistentUuid": "eee3fc71-1a01-4d58-a916-35b9c0ca246a",
-      "width": 86,
-      "x": 974,
-      "y": 532,
+      "width": 83,
+      "x": 968,
+      "y": 530,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1884,13 +1862,13 @@
       "angle": 360,
       "customSize": true,
       "depth": 1,
-      "height": 126,
+      "height": 121,
       "keepRatio": true,
       "layer": "",
       "name": "innerWall",
       "persistentUuid": "9fe47975-742c-493b-9d88-c136d79bf124",
-      "width": 22,
-      "x": 986,
+      "width": 21,
+      "x": 981,
       "y": 478,
       "zOrder": 1,
       "numberProperties": [],
@@ -1906,14 +1884,14 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 106,
+      "height": 99,
       "keepRatio": true,
       "layer": "",
       "name": "innerWall",
       "persistentUuid": "b78dad45-848b-4ca4-990c-3d7485758f54",
-      "width": 22,
-      "x": 1173,
-      "y": 447,
+      "width": 21,
+      "x": 1177,
+      "y": 450,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1928,14 +1906,14 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 107,
+      "height": 100,
       "keepRatio": true,
       "layer": "",
       "name": "innerWall",
       "persistentUuid": "3fb811ed-0194-4da4-b6b0-9903870e9d0f",
-      "width": 22,
-      "x": 1170,
-      "y": 546,
+      "width": 21,
+      "x": 1175,
+      "y": 543,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -1950,14 +1928,14 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 30,
       "keepRatio": true,
       "layer": "",
       "name": "fridgeWall",
       "persistentUuid": "51a657e3-5e42-4ae1-a6d7-d402c3f5000a",
-      "width": 86,
-      "x": 1157,
-      "y": 533,
+      "width": 81,
+      "x": 1162,
+      "y": 530,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [
@@ -1972,13 +1950,13 @@
       "angle": 180,
       "customSize": true,
       "depth": 1,
-      "height": 126,
+      "height": 118,
       "keepRatio": true,
       "layer": "",
       "name": "innerWall",
       "persistentUuid": "7144b869-0d86-436d-b35f-f280185512d9",
-      "width": 22,
-      "x": 1208,
+      "width": 20,
+      "x": 1210,
       "y": 493,
       "zOrder": 1,
       "numberProperties": [],
@@ -2044,7 +2022,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "c077f770-6d7e-4b28-833d-99bb40d67ad4",
       "width": 21,
-      "x": 1046,
+      "x": 1050,
       "y": 45,
       "zOrder": 2,
       "numberProperties": [],
@@ -2066,29 +2044,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "3125de33-dc58-45e9-b7a1-96d863f5378e",
       "width": 21,
-      "x": 1111,
-      "y": 45,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[23],[30],[37],[44]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "verticalShelfGreen",
-      "persistentUuid": "4724d510-b7f9-408e-9556-750af616df12",
-      "width": 21,
-      "x": 1177,
+      "x": 1155,
       "y": 45,
       "zOrder": 2,
       "numberProperties": [],
@@ -2110,7 +2066,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "485c116d-9465-4ca3-8aa4-b7f0676004ff",
       "width": 21,
-      "x": 1046,
+      "x": 1050,
       "y": 143,
       "zOrder": 2,
       "numberProperties": [],
@@ -2132,29 +2088,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "7fe7a3ff-c4e8-469c-a845-98d8d9178ae6",
       "width": 21,
-      "x": 1111,
-      "y": 143,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[23],[30],[37],[44]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "verticalShelfGreen",
-      "persistentUuid": "a39b2ab2-74b3-4cd9-84ba-8131308980fc",
-      "width": 21,
-      "x": 1177,
+      "x": 1155,
       "y": 143,
       "zOrder": 2,
       "numberProperties": [],
@@ -2176,7 +2110,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "9a046278-e8ad-4b2e-9077-3dc18c46b36c",
       "width": 20,
-      "x": 1160,
+      "x": 1155,
       "y": 236,
       "zOrder": 2,
       "numberProperties": [],
@@ -2198,7 +2132,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "47630d00-11d0-48f9-9fdc-c4e6e1d7a18f",
       "width": 20,
-      "x": 1160,
+      "x": 1155,
       "y": 301,
       "zOrder": 2,
       "numberProperties": [],
@@ -2220,7 +2154,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "848c3528-6cb7-49d7-a84e-9755981baf56",
       "width": 20,
-      "x": 1061,
+      "x": 1030,
       "y": 302,
       "zOrder": 2,
       "numberProperties": [],
@@ -2242,7 +2176,7 @@
       "name": "verticalShelfGreen",
       "persistentUuid": "dc1a108d-cd79-4c41-bb5b-1c4fed8f3f25",
       "width": 20,
-      "x": 1061,
+      "x": 1030,
       "y": 236,
       "zOrder": 2,
       "numberProperties": [],
@@ -2264,7 +2198,7 @@
       "name": "Timer_Test",
       "persistentUuid": "2943f083-f8e1-47ef-aaa8-fd8f91ffe40b",
       "width": 121,
-      "x": 18,
+      "x": 45,
       "y": 658,
       "zOrder": 11,
       "numberProperties": [],
@@ -2318,6 +2252,28 @@
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0.8403361344537816,
+      "height": 35.29411764705884,
+      "keepRatio": true,
+      "layer": "",
+      "name": "shelfBeige",
+      "persistentUuid": "370b30f4-7954-4e36-8f9b-f908b0051c22",
+      "width": 100,
+      "x": 250,
+      "y": 335,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
+        }
+      ],
       "initialVariables": []
     }
   ],
@@ -2687,7 +2643,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NPC1",
       "type": "Sprite",
@@ -2745,20 +2701,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 3
                       },
                       {
-                        "x": 21,
-                        "y": 0
+                        "x": 15,
+                        "y": 3
                       },
                       {
-                        "x": 21,
-                        "y": 31
+                        "x": 15,
+                        "y": 28
                       },
                       {
-                        "x": 0,
-                        "y": 31
+                        "x": 7,
+                        "y": 28
                       }
                     ]
                   ]
@@ -2770,7 +2726,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NPC2",
       "type": "Sprite",
@@ -2828,20 +2784,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 3
                       },
                       {
-                        "x": 21,
-                        "y": 0
+                        "x": 15,
+                        "y": 3
                       },
                       {
-                        "x": 21,
-                        "y": 31
+                        "x": 15,
+                        "y": 27
                       },
                       {
-                        "x": 0,
-                        "y": 31
+                        "x": 6,
+                        "y": 27
                       }
                     ]
                   ]
@@ -2853,7 +2809,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NPC3",
       "type": "Sprite",
@@ -2911,20 +2867,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 4
                       },
                       {
-                        "x": 21,
-                        "y": 0
+                        "x": 15,
+                        "y": 4
                       },
                       {
-                        "x": 21,
-                        "y": 31
+                        "x": 15,
+                        "y": 28
                       },
                       {
-                        "x": 0,
-                        "y": 31
+                        "x": 7,
+                        "y": 28
                       }
                     ]
                   ]
@@ -2936,7 +2892,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NPC4",
       "type": "Sprite",
@@ -2994,20 +2950,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 21,
-                        "y": 0
+                        "x": 15,
+                        "y": 5
                       },
                       {
-                        "x": 21,
-                        "y": 31
+                        "x": 15,
+                        "y": 25
                       },
                       {
-                        "x": 0,
-                        "y": 31
+                        "x": 7,
+                        "y": 25
                       }
                     ]
                   ]
@@ -3019,7 +2975,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NPC5",
       "type": "Sprite",
@@ -3077,20 +3033,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 21,
-                        "y": 0
+                        "x": 15,
+                        "y": 5
                       },
                       {
-                        "x": 21,
-                        "y": 31
+                        "x": 15,
+                        "y": 26
                       },
                       {
-                        "x": 0,
-                        "y": 31
+                        "x": 7,
+                        "y": 26
                       }
                     ]
                   ]
@@ -4511,7 +4467,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "10"
+            "0"
           ]
         },
         {
@@ -4536,6 +4492,18 @@
         },
         {
           "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC2",
+            "Pathfinding",
+            "",
+            "930",
+            "400"
+          ]
+        },
+        {
+          "type": {
             "value": "ResetObjectTimer"
           },
           "parameters": [
@@ -4555,7 +4523,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "15"
+            "0"
           ]
         },
         {
@@ -4580,6 +4548,18 @@
         },
         {
           "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC3",
+            "Pathfinding",
+            "",
+            "900",
+            "600"
+          ]
+        },
+        {
+          "type": {
             "value": "ResetObjectTimer"
           },
           "parameters": [
@@ -4599,7 +4579,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "20"
+            "0"
           ]
         },
         {
@@ -4624,6 +4604,18 @@
         },
         {
           "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC4",
+            "Pathfinding",
+            "",
+            "140",
+            "275"
+          ]
+        },
+        {
+          "type": {
             "value": "ResetObjectTimer"
           },
           "parameters": [
@@ -4643,7 +4635,7 @@
           "parameters": [
             "SpawnTimer",
             ">",
-            "25"
+            "0"
           ]
         },
         {
@@ -4664,6 +4656,18 @@
             "930",
             "305",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC5",
+            "Pathfinding",
+            "",
+            "470",
+            "350"
           ]
         },
         {
@@ -4737,33 +4741,6 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "NPC2",
-            "Pathfinding",
-            "",
-            "NPC2.X()",
-            "NPC2.Y()"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "PathfindingBehavior::DestinationReached"
           },
           "parameters": [
@@ -4772,135 +4749,17 @@
           ]
         }
       ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC2",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC2",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "NPC2",
-            "\"Movement\"",
-            ">=",
-            "RandomInRange(1,3)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC2",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC2",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "NPC2",
-            "Move",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TravelToRandomPositions::TravelToRandomPositions"
-          },
-          "parameters": [
-            "",
-            "NPC2",
-            "Pathfinding",
-            "100",
-            "100",
-            "360",
-            "0",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
       "actions": [
         {
           "type": {
             "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
-            "NPC3",
+            "NPC2",
             "Pathfinding",
             "",
-            "NPC3.X()",
-            "NPC3.Y()"
+            "RandomInRange(50, 1230)",
+            "RandomInRange(80, 680)"
           ]
         }
       ]
@@ -4918,135 +4777,17 @@
           ]
         }
       ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC3",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC3",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "NPC3",
-            "\"Movement\"",
-            ">=",
-            "RandomInRange(1,3)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC3",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC3",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "NPC3",
-            "Move",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TravelToRandomPositions::TravelToRandomPositions"
-          },
-          "parameters": [
-            "",
-            "NPC3",
-            "Pathfinding",
-            "100",
-            "100",
-            "360",
-            "0",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
       "actions": [
         {
           "type": {
             "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
-            "NPC4",
+            "NPC3",
             "Pathfinding",
             "",
-            "NPC4.X()",
-            "NPC4.Y()"
+            "RandomInRange(80, 300)",
+            "RandomInRange(520, 690)"
           ]
         }
       ]
@@ -5064,135 +4805,17 @@
           ]
         }
       ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC4",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC4",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "NPC4",
-            "\"Movement\"",
-            ">=",
-            "RandomInRange(1,3)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC4",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC4",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "NPC4",
-            "Move",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TravelToRandomPositions::TravelToRandomPositions"
-          },
-          "parameters": [
-            "",
-            "NPC4",
-            "Pathfinding",
-            "100",
-            "100",
-            "360",
-            "0",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
       "actions": [
         {
           "type": {
             "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
-            "NPC5",
+            "NPC4",
             "Pathfinding",
             "",
-            "NPC5.X()",
-            "NPC5.Y()"
+            "RandomInRange(150, 500)",
+            "RandomInRange(80, 350)"
           ]
         }
       ]
@@ -5210,108 +4833,17 @@
           ]
         }
       ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
       "actions": [
         {
           "type": {
-            "value": "ResetObjectTimer"
+            "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
-            "NPC5",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC5",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "NPC5",
-            "\"Movement\"",
-            ">=",
-            "RandomInRange(1,3)"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "NPC5",
-            "\"Movement\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "NPC5",
-            "Move",
-            "=",
-            "Random(2)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "NPC5",
-            "Move",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TravelToRandomPositions::TravelToRandomPositions"
-          },
-          "parameters": [
-            "",
             "NPC5",
             "Pathfinding",
-            "100",
-            "100",
-            "360",
-            "0",
-            ""
+            "",
+            "RandomInRange(350, 950)",
+            "RandomInRange(150, 650)"
           ]
         }
       ]

@@ -404,6 +404,138 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Loafbread.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Loafbread.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Food/0fac04d9f4d81e1ef207e97cbb105961833cf5589e4bf0a0d3f9e69d66f097d9_Loafbread.png",
+          "name": "Loafbread.png"
+        }
+      },
+      {
+        "file": "assets/Milk Gallon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Milk Gallon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/8d06d185071546c3f22531dec88cdd9c97f4fea9deec0d8302263221f3a94f17_Milk Gallon.png",
+          "name": "Milk Gallon.png"
+        }
+      },
+      {
+        "file": "assets/Strawberry Jam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Strawberry Jam.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/4da30a724fcee89b20a12d4fde46307d7207acb519116cfce718a4600e7d3f8c_Strawberry Jam.png",
+          "name": "Strawberry Jam.png"
+        }
+      },
+      {
+        "file": "assets/Potatochip Yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potatochip Yellow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/6c4ec10f6225a0cf5f2ada0c4dce7edf2de79a1943ed3a0d02383495d99a4793_Potatochip Yellow.png",
+          "name": "Potatochip Yellow.png"
+        }
+      },
+      {
+        "file": "assets/Banana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Banana.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/4b93c33a2be0d94e46a3bf8ebcdf72337e1f3aacaaac6e8b50aa8073849553c0_Banana.png",
+          "name": "Banana.png"
+        }
+      },
+      {
+        "file": "assets/Egg White Packaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Egg White Packaged.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/42c9b3667af1fe2229aae0b4a9e87e02758bced35528a6d2d362843f23bb1a35_Egg White Packaged.png",
+          "name": "Egg White Packaged.png"
+        }
+      },
+      {
+        "file": "assets/Orange Juice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Juice.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Drink/cbf1ea7988d8657a2d4a6ac5910e3415b3617127341bc450955cc7e7918b11cc_Orange Juice.png",
+          "name": "Orange Juice.png"
+        }
+      },
+      {
+        "file": "assets/Bell Pepper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bell Pepper.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/0a46536d7a285fc6483fc12f4d8c8f9a426d0606ff3131bd0beba220b41c0d5c_Bell Pepper.png",
+          "name": "Bell Pepper.png"
+        }
+      },
+      {
+        "file": "assets/Butter2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Butter2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/77ab901aa5f3bf19c00476be9c9d4fec1978c4b7e599de9d8a8ef2b7a21761f6_Butter2.png",
+          "name": "Butter2.png"
+        }
+      },
+      {
+        "file": "assets/Peanut Butter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peanut Butter.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/3912e38f46894087fc7d518fc2d65c5041258e0bbc2dfcc4f4df8530739540ee_Peanut Butter.png",
+          "name": "Peanut Butter.png"
+        }
+      },
+      {
+        "file": "assets/Fruit Cocktail Can.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fruit Cocktail Can.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/8ea72cc59b745a61d726f577052f0e4fe9f6425eb86f134410969afb8b8cba49_Fruit Cocktail Can.png",
+          "name": "Fruit Cocktail Can.png"
+        }
       }
     ],
     "resourceFolders": []

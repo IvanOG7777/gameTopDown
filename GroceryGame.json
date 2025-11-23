@@ -536,6 +536,31 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/8ea72cc59b745a61d726f577052f0e4fe9f6425eb86f134410969afb8b8cba49_Fruit Cocktail Can.png",
           "name": "Fruit Cocktail Can.png"
         }
+      },
+      {
+        "file": "assets/Coins 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

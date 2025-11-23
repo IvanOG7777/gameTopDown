@@ -105,37 +105,37 @@
       "name": "Store Items",
       "objects": [
         {
-          "name": "Milk_Gallon"
+          "name": "Milk"
         },
         {
-          "name": "Loafbread"
+          "name": "Bread"
         },
         {
           "name": "Orange_Juice"
         },
         {
-          "name": "Egg_White_Packaged"
+          "name": "Eggs"
         },
         {
-          "name": "Strawberry_Jam"
+          "name": "Jam"
         },
         {
-          "name": "Bell_Pepper"
+          "name": "Peppers"
         },
         {
-          "name": "Potatochip_Yellow"
+          "name": "Chips"
         },
         {
           "name": "Banana"
         },
         {
-          "name": "Butter2"
+          "name": "Butter"
         },
         {
           "name": "Peanut_Butter"
         },
         {
-          "name": "Fruit_Cocktail_Can"
+          "name": "Fruit_Can"
         }
       ]
     }
@@ -145,6 +145,16 @@
       "name": "SpawnTimer",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "ChosenStoreItems",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "StoreItem",
+      "type": "string",
+      "value": "0"
     }
   ],
   "instances": [
@@ -2223,38 +2233,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Fruit_Cocktail_Can",
-      "persistentUuid": "0109c59d-5880-48d5-abf7-bce05fb95891",
-      "width": 0,
-      "x": 245,
-      "y": 558,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Peanut_Butter",
-      "persistentUuid": "721b66ab-c2a1-476b-81ce-c7041d5f701d",
-      "width": 0,
-      "x": 219,
-      "y": 519,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 270,
       "customSize": true,
       "depth": 0.8403361344537816,
@@ -2274,6 +2252,86 @@
           "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[17,18,18,18,18,18,18,18,19],[24,25,25,25,25,25,25,25,26]]}]}"
         }
       ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NPC1Food",
+      "persistentUuid": "c4b912aa-875b-4261-ab4b-30b213c2c281",
+      "width": 0,
+      "x": 1227,
+      "y": 744,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NPC2Food",
+      "persistentUuid": "43cfc92d-ae01-4cb3-be27-9ee9dae31a02",
+      "width": 0,
+      "x": 1230,
+      "y": 767,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NPC4Food",
+      "persistentUuid": "5c9d20c7-0a12-44d6-85ba-8d548c1185db",
+      "width": 0,
+      "x": 1232,
+      "y": 790,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NPC3Food",
+      "persistentUuid": "f6693356-cc3f-4922-be71-b192b9e1ea69",
+      "width": 0,
+      "x": 1246,
+      "y": 820,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NPC5Food",
+      "persistentUuid": "55ad5a89-ae54-4657-9269-5b011868ae75",
+      "width": 0,
+      "x": 1260,
+      "y": 845,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
       "initialVariables": []
     }
   ],
@@ -2653,6 +2711,11 @@
           "name": "Move",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "ChosenStoreItem",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -2734,6 +2797,11 @@
       "variables": [
         {
           "name": "Move",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ChosenStoreItem",
           "type": "number",
           "value": 0
         }
@@ -2819,6 +2887,11 @@
           "name": "Move",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "ChosenStoreItem",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -2902,6 +2975,11 @@
           "name": "Move",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "ChosenStoreItem",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -2983,6 +3061,11 @@
       "variables": [
         {
           "name": "Move",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ChosenStoreItem",
           "type": "number",
           "value": 0
         }
@@ -3359,10 +3442,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "683d02f292d53a9bb2691ba166f765bd809c418caeddb6ad9acc554d351fa938",
-      "name": "Loafbread",
+      "name": "Bread",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3419,10 +3513,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "f650259db67237bff2c05f4322c47ec46eb045ddc72aa8d2693d029f643ead2b",
-      "name": "Milk_Gallon",
+      "name": "Milk",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3479,10 +3584,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "9eeb7fc64a1a97973f4f8bf0b8891551372a8a9bf1d299981aa76f825771c006",
-      "name": "Strawberry_Jam",
+      "name": "Jam",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3539,10 +3655,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "81792619574e1d24809ed913e509774a4048f48ba1ae93a40d062b30f632fd20",
-      "name": "Potatochip_Yellow",
+      "name": "Chips",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3602,7 +3729,18 @@
       "name": "Banana",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3659,10 +3797,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "1d21314e0a59742478f187d8f79e7e0b5b75327c7cad6af3180b5bf5eeda7206",
-      "name": "Egg_White_Packaged",
+      "name": "Eggs",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3722,7 +3871,18 @@
       "name": "Orange_Juice",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3779,10 +3939,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "b25345b41259e1925f355d06a1767b3579120a476f27d4852c603cfd348ef29e",
-      "name": "Bell_Pepper",
+      "name": "Peppers",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3839,10 +4010,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "15e89d3f5ca601ec3237a716ffa224b2131bad1fa94dedbba35c52bf5114e2ad",
-      "name": "Butter2",
+      "name": "Butter",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3902,7 +4084,18 @@
       "name": "Peanut_Butter",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3959,10 +4152,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "8bc7c2aa53375eb5ac192a6e51e1d5595987cb37d99e885a8b9ab509cd4f977c",
-      "name": "Fruit_Cocktail_Can",
+      "name": "Fruit_Can",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Store_Items",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -4015,6 +4219,233 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC1Food",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC2Food",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "ChosenStoreItem",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC3Food",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC4Food",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NPC5Food",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4024,37 +4455,37 @@
         "objectName": "TopDown_Character"
       },
       {
-        "objectName": "Fruit_Cocktail_Can"
+        "objectName": "Fruit_Can"
       },
       {
         "objectName": "Peanut_Butter"
       },
       {
-        "objectName": "Butter2"
+        "objectName": "Butter"
       },
       {
-        "objectName": "Bell_Pepper"
+        "objectName": "Peppers"
       },
       {
         "objectName": "Orange_Juice"
       },
       {
-        "objectName": "Egg_White_Packaged"
+        "objectName": "Eggs"
       },
       {
         "objectName": "Banana"
       },
       {
-        "objectName": "Potatochip_Yellow"
+        "objectName": "Chips"
       },
       {
-        "objectName": "Strawberry_Jam"
+        "objectName": "Jam"
       },
       {
-        "objectName": "Milk_Gallon"
+        "objectName": "Milk"
       },
       {
-        "objectName": "Loafbread"
+        "objectName": "Bread"
       },
       {
         "folderName": "Mobile Controls",
@@ -4132,6 +4563,21 @@
       },
       {
         "objectName": "GameOver"
+      },
+      {
+        "objectName": "NPC1Food"
+      },
+      {
+        "objectName": "NPC2Food"
+      },
+      {
+        "objectName": "NPC3Food"
+      },
+      {
+        "objectName": "NPC4Food"
+      },
+      {
+        "objectName": "NPC5Food"
       }
     ]
   },
@@ -4965,6 +5411,466 @@
           },
           "parameters": [
             "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+            "",
+            "60",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SpawnTimer",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Bread",
+            "RandomInRange(200, 1000)",
+            "RandomInRange(150, 400)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Milk",
+            "RandomInRange(50, 1230)",
+            "RandomInRange(80, 680)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Jam",
+            "RandomInRange(80, 1000)",
+            "RandomInRange(520, 690)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Chips",
+            "RandomInRange(150, 500)",
+            "RandomInRange(80, 350)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Banana",
+            "RandomInRange(350, 950)",
+            "RandomInRange(300, 400)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Eggs",
+            "RandomInRange(200, 300)",
+            "RandomInRange(400, 800)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Orange_Juice",
+            "RandomInRange(200, 400)",
+            "RandomInRange(150, 100)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Peppers",
+            "RandomInRange(200, 1700)",
+            "RandomInRange(300, 800)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Butter",
+            "RandomInRange(200, 300)",
+            "RandomInRange(300, 500)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Fruit_Can",
+            "RandomInRange(600, 700)",
+            "RandomInRange(300, 800)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC1Food",
+            "=",
+            "NPC1.X() - 60",
+            "=",
+            "NPC1.Y() - 20"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SpawnTimer",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC1Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC2Food",
+            "=",
+            "NPC2.X() - 60",
+            "=",
+            "NPC2.Y() - 20"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SpawnTimer",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC2Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC3Food",
+            "=",
+            "NPC3.X() - 60",
+            "=",
+            "NPC3.Y() - 20"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SpawnTimer",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC3Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC4Food",
+            "=",
+            "NPC4.X() - 60",
+            "=",
+            "NPC4.Y() - 20"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SpawnTimer",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC4Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC5Food",
+            "=",
+            "NPC5.X() - 60",
+            "=",
+            "NPC5.Y() - 20"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SpawnTimer",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC5Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
           ]
         }
       ]

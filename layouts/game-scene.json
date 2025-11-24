@@ -138,6 +138,44 @@
           "name": "Fruit_Can"
         }
       ]
+    },
+    {
+      "name": "SpriteStoreItems",
+      "objects": [
+        {
+          "name": "Bread2"
+        },
+        {
+          "name": "Milk2"
+        },
+        {
+          "name": "Strawberry_Jam"
+        },
+        {
+          "name": "Potato_Chip"
+        },
+        {
+          "name": "Banana2"
+        },
+        {
+          "name": "Eggs2"
+        },
+        {
+          "name": "Orange_Juice2"
+        },
+        {
+          "name": "Bell_pepper"
+        },
+        {
+          "name": "Butter2"
+        },
+        {
+          "name": "Peanut_Butter2"
+        },
+        {
+          "name": "Fruit"
+        }
+      ]
     }
   ],
   "variables": [
@@ -2261,11 +2299,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "NPC1Food",
-      "persistentUuid": "c4b912aa-875b-4261-ab4b-30b213c2c281",
+      "persistentUuid": "10f82e40-8d44-4761-8802-f3ad6e08170e",
       "width": 0,
-      "x": 1227,
-      "y": 744,
-      "zOrder": 13,
+      "x": 1295,
+      "y": 860,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2277,27 +2315,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "NPC2Food",
-      "persistentUuid": "43cfc92d-ae01-4cb3-be27-9ee9dae31a02",
+      "persistentUuid": "1d97503f-78c0-447e-b868-257477cf7ee3",
       "width": 0,
-      "x": 1230,
-      "y": 767,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NPC4Food",
-      "persistentUuid": "5c9d20c7-0a12-44d6-85ba-8d548c1185db",
-      "width": 0,
-      "x": 1232,
-      "y": 790,
-      "zOrder": 15,
+      "x": 1295,
+      "y": 876,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2309,11 +2331,27 @@
       "keepRatio": true,
       "layer": "",
       "name": "NPC3Food",
-      "persistentUuid": "f6693356-cc3f-4922-be71-b192b9e1ea69",
+      "persistentUuid": "572daca5-ae1c-42c7-a09f-8ffbc04328ab",
       "width": 0,
-      "x": 1246,
-      "y": 820,
-      "zOrder": 16,
+      "x": 1295,
+      "y": 900,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NPC4Food",
+      "persistentUuid": "fb22040d-f7fa-4e12-8400-3c532126c741",
+      "width": 0,
+      "x": 1299,
+      "y": 922,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2325,11 +2363,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "NPC5Food",
-      "persistentUuid": "55ad5a89-ae54-4657-9269-5b011868ae75",
+      "persistentUuid": "5d323d14-f7c7-4f6b-947d-6d9811782bcd",
       "width": 0,
-      "x": 1260,
-      "y": 845,
-      "zOrder": 17,
+      "x": 1309,
+      "y": 947,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4221,6 +4259,666 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bread2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Loafbread.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 28,
+                        "y": 29
+                      },
+                      {
+                        "x": 4,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Milk2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Milk Gallon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 29
+                      },
+                      {
+                        "x": 6,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Strawberry_Jam",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Strawberry Jam.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Potato_Chip",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Potatochip Yellow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 29,
+                        "y": 1
+                      },
+                      {
+                        "x": 29,
+                        "y": 31
+                      },
+                      {
+                        "x": 3,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Banana2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Banana.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Eggs2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Egg White Packaged.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 31,
+                        "y": 6
+                      },
+                      {
+                        "x": 31,
+                        "y": 27
+                      },
+                      {
+                        "x": 1,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Orange_Juice2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orange Juice.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 24,
+                        "y": 1
+                      },
+                      {
+                        "x": 24,
+                        "y": 31
+                      },
+                      {
+                        "x": 9,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bell_pepper",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bell Pepper.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 4
+                      },
+                      {
+                        "x": 31,
+                        "y": 4
+                      },
+                      {
+                        "x": 31,
+                        "y": 29
+                      },
+                      {
+                        "x": 1,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Butter2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Butter2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 29,
+                        "y": 8
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 2,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Peanut_Butter2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Peanut Butter.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 31
+                      },
+                      {
+                        "x": 6,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fruit",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fruit Cocktail Can.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 30
+                      },
+                      {
+                        "x": 6,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -4228,13 +4926,7 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [
-        {
-          "name": "ChosenStoreItem",
-          "type": "string",
-          "value": "0"
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "string": "Text",
@@ -4277,13 +4969,7 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [
-        {
-          "name": "ChosenStoreItem",
-          "type": "string",
-          "value": "0"
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "string": "Text",
@@ -4563,6 +5249,39 @@
       },
       {
         "objectName": "GameOver"
+      },
+      {
+        "objectName": "Bread2"
+      },
+      {
+        "objectName": "Milk2"
+      },
+      {
+        "objectName": "Strawberry_Jam"
+      },
+      {
+        "objectName": "Potato_Chip"
+      },
+      {
+        "objectName": "Banana2"
+      },
+      {
+        "objectName": "Eggs2"
+      },
+      {
+        "objectName": "Orange_Juice2"
+      },
+      {
+        "objectName": "Bell_pepper"
+      },
+      {
+        "objectName": "Butter2"
+      },
+      {
+        "objectName": "Peanut_Butter2"
+      },
+      {
+        "objectName": "Fruit"
       },
       {
         "objectName": "NPC1Food"
@@ -5480,7 +6199,7 @@
             "",
             "Jam",
             "RandomInRange(80, 1000)",
-            "RandomInRange(520, 690)",
+            "RandomInRange(250, 690)",
             ""
           ]
         },
@@ -5516,7 +6235,7 @@
             "",
             "Eggs",
             "RandomInRange(200, 300)",
-            "RandomInRange(400, 800)",
+            "RandomInRange(200, 300)",
             ""
           ]
         },
@@ -5540,7 +6259,7 @@
             "",
             "Peppers",
             "RandomInRange(200, 1700)",
-            "RandomInRange(300, 800)",
+            "RandomInRange(300, 500)",
             ""
           ]
         },
@@ -5564,26 +6283,8 @@
             "",
             "Fruit_Can",
             "RandomInRange(600, 700)",
-            "RandomInRange(300, 800)",
+            "RandomInRange(300, 400)",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "NPC1Food",
-            "=",
-            "NPC1.X() - 60",
-            "=",
-            "NPC1.Y() - 20"
           ]
         }
       ]
@@ -5706,6 +6407,24 @@
             "NPC3.X() - 60",
             "=",
             "NPC3.Y() - 20"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC1Food",
+            "=",
+            "NPC1.X() - 60",
+            "=",
+            "NPC1.Y() - 20"
           ]
         }
       ]

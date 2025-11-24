@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703312193,
+    "zoomFactor": 0.5843784410741577,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -168,8 +168,8 @@
       "name": "TopDown_Character",
       "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
       "width": 18,
-      "x": 472,
-      "y": 396,
+      "x": 438,
+      "y": 610,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -2714,6 +2714,11 @@
         },
         {
           "name": "ChosenStoreItem",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "goToCheckout",
           "type": "number",
           "value": 0
         }
@@ -2802,6 +2807,11 @@
         },
         {
           "name": "ChosenStoreItem",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "goToCheckout",
           "type": "number",
           "value": 0
         }
@@ -2890,6 +2900,11 @@
         },
         {
           "name": "ChosenStoreItem",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "goToCheckout",
           "type": "number",
           "value": 0
         }
@@ -2978,6 +2993,11 @@
         },
         {
           "name": "ChosenStoreItem",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "goToCheckout",
           "type": "number",
           "value": 0
         }
@@ -3066,6 +3086,11 @@
         },
         {
           "name": "ChosenStoreItem",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "goToCheckout",
           "type": "number",
           "value": 0
         }
@@ -5165,6 +5190,17 @@
             "NPC1",
             "Pathfinding"
           ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "NPC1",
+            "goToCheckout",
+            "=",
+            "0"
+          ]
         }
       ],
       "actions": [
@@ -5192,6 +5228,17 @@
           "parameters": [
             "NPC2",
             "Pathfinding"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "NPC2",
+            "goToCheckout",
+            "=",
+            "0"
           ]
         }
       ],
@@ -5221,6 +5268,17 @@
             "NPC3",
             "Pathfinding"
           ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "NPC3",
+            "goToCheckout",
+            "=",
+            "0"
+          ]
         }
       ],
       "actions": [
@@ -5249,6 +5307,17 @@
             "NPC4",
             "Pathfinding"
           ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "NPC4",
+            "goToCheckout",
+            "=",
+            "0"
+          ]
         }
       ],
       "actions": [
@@ -5276,6 +5345,17 @@
           "parameters": [
             "NPC5",
             "Pathfinding"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "NPC5",
+            "goToCheckout",
+            "=",
+            "0"
           ]
         }
       ],
@@ -5423,6 +5503,268 @@
             "",
             "60",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "NPC1",
+                "ChosenStoreItem",
+                "=",
+                "Store Items.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "NPC1",
+                "goToCheckout",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "NPC1",
+                "goToCheckout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "NPC1",
+                "Pathfinding",
+                "",
+                "23",
+                "610"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "NPC2",
+                "ChosenStoreItem",
+                "=",
+                "Store Items.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "NPC2",
+                "goToCheckout",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "NPC2",
+                "goToCheckout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "NPC2",
+                "Pathfinding",
+                "",
+                "23",
+                "610"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "NPC3",
+                "ChosenStoreItem",
+                "=",
+                "Store Items.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "NPC3",
+                "goToCheckout",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "NPC3",
+                "goToCheckout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "NPC3",
+                "Pathfinding",
+                "",
+                "23",
+                "610"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "NPC4",
+                "ChosenStoreItem",
+                "=",
+                "Store Items.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "NPC4",
+                "goToCheckout",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "NPC4",
+                "goToCheckout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "NPC4",
+                "Pathfinding",
+                "",
+                "23",
+                "610"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "NPC5",
+                "ChosenStoreItem",
+                "=",
+                "Store Items.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "NPC5",
+                "goToCheckout",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "NPC5",
+                "goToCheckout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "NPC5",
+                "Pathfinding",
+                "",
+                "23",
+                "610"
+              ]
+            }
           ]
         }
       ]
@@ -5620,13 +5962,24 @@
         },
         {
           "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC1",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "NPC1Food",
             "Text",
             "=",
-            "\"I want \" + Store Items.ObjectName()"
+            "\"I want \" + NPC1.VariableString(ChosenStoreItem)"
           ]
         }
       ]

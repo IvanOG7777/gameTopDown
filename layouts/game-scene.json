@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410741577,
+    "zoomFactor": 1.0615714305221151,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -168,7 +168,7 @@
       "name": "TopDown_Character",
       "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
       "width": 18,
-      "x": 438,
+      "x": 153,
       "y": 610,
       "zOrder": 1,
       "numberProperties": [],
@@ -5766,6 +5766,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
@@ -6034,6 +6039,17 @@
         },
         {
           "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC2",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -6091,6 +6107,17 @@
           "parameters": [
             "",
             "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC3",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
           ]
         },
         {
@@ -6156,6 +6183,17 @@
         },
         {
           "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC4",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -6213,6 +6251,17 @@
           "parameters": [
             "",
             "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC5",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
           ]
         },
         {

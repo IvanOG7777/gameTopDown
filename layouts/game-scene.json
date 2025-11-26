@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.745802398746986,
+    "zoomFactor": 1.0615714305221229,
     "windowMask": false,
     "selectedLayer": "UI"
   },
@@ -6709,6 +6709,23 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "playerscore",
+            "Text",
+            "=",
+            "\"Score: \" + ToString(TopDown_Character.Variable(Player_Score))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -8385,15 +8402,6 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NPC1",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
@@ -8412,6 +8420,81 @@
             "goToCheckout",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "Player_Score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC1",
+            "Pathfinding",
+            "",
+            "305",
+            "615"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "NPC1",
+            "\"Move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC1",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC1Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC1Food",
+            "=",
+            "NPC1.X() - 60",
+            "=",
+            "NPC1.Y() - 20"
           ]
         }
       ]
@@ -8455,15 +8538,6 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NPC2",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
@@ -8482,6 +8556,81 @@
             "goToCheckout",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "Player_Score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC2",
+            "Pathfinding",
+            "",
+            "305",
+            "615"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "NPC2",
+            "\"Move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC2",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC2Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC2Food",
+            "=",
+            "NPC2.X() - 60",
+            "=",
+            "NPC1.Y() - 20"
           ]
         }
       ]
@@ -8525,15 +8674,6 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NPC3",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
@@ -8552,6 +8692,81 @@
             "goToCheckout",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "Player_Score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC3",
+            "Pathfinding",
+            "",
+            "305",
+            "615"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "NPC3",
+            "\"Move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC3",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC3Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC3Food",
+            "=",
+            "NPC3.X() - 60",
+            "=",
+            "NPC3.Y() - 20"
           ]
         }
       ]
@@ -8595,15 +8810,6 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NPC4",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
@@ -8622,6 +8828,81 @@
             "goToCheckout",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "Player_Score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC4",
+            "Pathfinding",
+            "",
+            "305",
+            "615"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "NPC4",
+            "\"Move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC4",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC4Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC4Food",
+            "=",
+            "NPC4.X() - 60",
+            "=",
+            "NPC4.Y() - 20"
           ]
         }
       ]
@@ -8665,15 +8946,6 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NPC5",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberObjectVariable"
           },
           "parameters": [
@@ -8693,13 +8965,83 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TopDown_Character",
+            "Player_Score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NPC5",
+            "Pathfinding",
+            "",
+            "305",
+            "615"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "NPC5",
+            "\"Move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutHasard"
+          },
+          "parameters": [
+            "",
+            "Store Items"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "NPC5",
+            "ChosenStoreItem",
+            "=",
+            "Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NPC5Food",
+            "Text",
+            "=",
+            "\"I want \" + Store Items.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NPC5Food",
+            "=",
+            "NPC5.X() - 60",
+            "=",
+            "NPC5.Y() - 20"
+          ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

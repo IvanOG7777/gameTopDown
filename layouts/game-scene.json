@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827595646,
+    "zoomFactor": 0.32169117647062734,
     "windowMask": false,
     "selectedLayer": "UI"
   },
@@ -3769,7 +3769,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "683d02f292d53a9bb2691ba166f765bd809c418caeddb6ad9acc554d351fa938",
       "name": "Bread",
       "type": "Sprite",
@@ -3815,20 +3815,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 3
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 28,
-                        "y": 3
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 28,
-                        "y": 29
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 4,
-                        "y": 29
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3840,7 +3840,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "f650259db67237bff2c05f4322c47ec46eb045ddc72aa8d2693d029f643ead2b",
       "name": "Milk",
       "type": "Sprite",
@@ -3886,20 +3886,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 2
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 29
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 6,
-                        "y": 29
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3911,7 +3911,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "9eeb7fc64a1a97973f4f8bf0b8891551372a8a9bf1d299981aa76f825771c006",
       "name": "Jam",
       "type": "Sprite",
@@ -3957,20 +3957,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 3
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 25,
-                        "y": 3
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 25,
-                        "y": 29
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 7,
-                        "y": 29
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3982,7 +3982,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "81792619574e1d24809ed913e509774a4048f48ba1ae93a40d062b30f632fd20",
       "name": "Chips",
       "type": "Sprite",
@@ -4028,20 +4028,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 29,
-                        "y": 1
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 29,
-                        "y": 31
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 3,
-                        "y": 31
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4053,7 +4053,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "b6e893398ee9318775ba63948a8013339dfd4227d814845d90b62ceda9f45ba2",
       "name": "Banana",
       "type": "Sprite",
@@ -4099,20 +4099,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 3
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 30,
-                        "y": 3
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 30,
-                        "y": 28
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 4,
-                        "y": 28
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4124,7 +4124,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "1d21314e0a59742478f187d8f79e7e0b5b75327c7cad6af3180b5bf5eeda7206",
       "name": "Eggs",
       "type": "Sprite",
@@ -4170,20 +4170,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 6
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 31,
-                        "y": 6
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 31,
-                        "y": 27
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 1,
-                        "y": 27
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4195,7 +4195,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "a0ba3d4ecb11dac280f2ce3e37800c1d89226133804498edc4cc0c4536f7e1f3",
       "name": "Orange_Juice",
       "type": "Sprite",
@@ -4241,20 +4241,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 24,
-                        "y": 1
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 24,
-                        "y": 31
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 9,
-                        "y": 31
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4266,7 +4266,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "b25345b41259e1925f355d06a1767b3579120a476f27d4852c603cfd348ef29e",
       "name": "Peppers",
       "type": "Sprite",
@@ -4312,20 +4312,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 4
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 31,
-                        "y": 4
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 31,
-                        "y": 29
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 1,
-                        "y": 29
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4337,7 +4337,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "15e89d3f5ca601ec3237a716ffa224b2131bad1fa94dedbba35c52bf5114e2ad",
       "name": "Butter",
       "type": "Sprite",
@@ -4383,20 +4383,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 8
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 29,
-                        "y": 8
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 29,
-                        "y": 26
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 2,
-                        "y": 26
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4408,7 +4408,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "5ac90397b67be36cf972728bc7bbb4608342619e37fe73fe5a6845f99a8712d5",
       "name": "Peanut_Butter",
       "type": "Sprite",
@@ -4454,20 +4454,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 2
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 31
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 6,
-                        "y": 31
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4479,7 +4479,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "8bc7c2aa53375eb5ac192a6e51e1d5595987cb37d99e885a8b9ab509cd4f977c",
       "name": "Fruit_Can",
       "type": "Sprite",
@@ -4525,20 +4525,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 2
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 30
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 6,
-                        "y": 30
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -7402,14 +7402,6 @@
         },
         {
           "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Store Items"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -7418,6 +7410,18 @@
             "",
             "60",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Store Items",
+            "=",
+            "RandomInRange(200, 1100)",
+            "=",
+            "RandomInRange(150, 650)"
           ]
         }
       ],
@@ -7723,9 +7727,45 @@
           },
           "parameters": [
             "",
+            "Bread",
+            "RandomInRange(200, 1000)",
+            "RandomInRange(150, 400)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
             "Milk",
             "RandomInRange(50, 1180)",
             "RandomInRange(80, 680)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Milk",
+            "RandomInRange(50, 1180)",
+            "RandomInRange(80, 680)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Jam",
+            "RandomInRange(80, 1000)",
+            "RandomInRange(250, 690)",
             ""
           ]
         },
@@ -7759,6 +7799,30 @@
           },
           "parameters": [
             "",
+            "Chips",
+            "RandomInRange(150, 500)",
+            "RandomInRange(80, 350)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Banana",
+            "RandomInRange(350, 950)",
+            "RandomInRange(300, 400)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
             "Banana",
             "RandomInRange(350, 950)",
             "RandomInRange(300, 400)",
@@ -7783,9 +7847,45 @@
           },
           "parameters": [
             "",
+            "Eggs",
+            "RandomInRange(200, 300)",
+            "RandomInRange(200, 300)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
             "Orange_Juice",
-            "RandomInRange(200, 400)",
-            "RandomInRange(150, 100)",
+            "RandomInRange(100, 923)",
+            "RandomInRange(50, 600)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Orange_Juice",
+            "RandomInRange(100, 923)",
+            "RandomInRange(50, 600)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Peppers",
+            "RandomInRange(200, 1100)",
+            "RandomInRange(300, 500)",
             ""
           ]
         },
@@ -7810,6 +7910,30 @@
             "Butter",
             "RandomInRange(200, 300)",
             "RandomInRange(300, 500)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Butter",
+            "RandomInRange(200, 300)",
+            "RandomInRange(300, 500)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Fruit_Can",
+            "RandomInRange(600, 700)",
+            "RandomInRange(300, 400)",
             ""
           ]
         },

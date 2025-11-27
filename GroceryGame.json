@@ -577,6 +577,18 @@
         "name": "..\\..\\..\\..\\Downloads\\BlankPNG.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Credit Card Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Credit Card Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Item/f6333a92fd2a3ebea81572704efe13c1dc5e2877c61429e4ce603527d0822e1c_Credit Card Red.png",
+          "name": "Credit Card Red.png"
+        }
       }
     ],
     "resourceFolders": []

@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 248,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -80,7 +80,10 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -590,8 +593,7 @@
           "name": "Credit Card Red.png"
         }
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
